@@ -1,0 +1,1 @@
+docker run --rm -it -v "$(pwd)/infra/mosquitto/config:/mosquitto/config" eclipse-mosquitto mosquitto_passwd -c /mosquitto/config/pwfile iotuser

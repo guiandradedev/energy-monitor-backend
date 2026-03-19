@@ -1,0 +1,937 @@
+1773922080: mosquitto version 2.1.2 starting
+1773922080: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922080: Bridge support available.
+1773922080: Persistence support available.
+1773922080: TLS support available.
+1773922080: TLS-PSK support available.
+1773922080: Websockets support available.
+1773922080: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922080: mosquitto version 2.1.2 terminating
+1773922080: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922080: mosquitto version 2.1.2 starting
+1773922080: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922080: Bridge support available.
+1773922080: Persistence support available.
+1773922080: TLS support available.
+1773922080: TLS-PSK support available.
+1773922080: Websockets support available.
+1773922080: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922080: mosquitto version 2.1.2 terminating
+1773922080: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922080: mosquitto version 2.1.2 starting
+1773922080: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922080: Bridge support available.
+1773922080: Persistence support available.
+1773922080: TLS support available.
+1773922080: TLS-PSK support available.
+1773922080: Websockets support available.
+1773922080: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922080: mosquitto version 2.1.2 terminating
+1773922080: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922081: mosquitto version 2.1.2 starting
+1773922081: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922081: Bridge support available.
+1773922081: Persistence support available.
+1773922081: TLS support available.
+1773922081: TLS-PSK support available.
+1773922081: Websockets support available.
+1773922081: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922081: mosquitto version 2.1.2 terminating
+1773922081: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922082: mosquitto version 2.1.2 starting
+1773922082: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922082: Bridge support available.
+1773922082: Persistence support available.
+1773922082: TLS support available.
+1773922082: TLS-PSK support available.
+1773922082: Websockets support available.
+1773922082: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922082: mosquitto version 2.1.2 terminating
+1773922082: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922083: mosquitto version 2.1.2 starting
+1773922083: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922083: Bridge support available.
+1773922083: Persistence support available.
+1773922083: TLS support available.
+1773922083: TLS-PSK support available.
+1773922083: Websockets support available.
+1773922083: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922083: mosquitto version 2.1.2 terminating
+1773922083: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922087: mosquitto version 2.1.2 starting
+1773922087: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922087: Bridge support available.
+1773922087: Persistence support available.
+1773922087: TLS support available.
+1773922087: TLS-PSK support available.
+1773922087: Websockets support available.
+1773922087: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922087: mosquitto version 2.1.2 terminating
+1773922087: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922093: mosquitto version 2.1.2 starting
+1773922093: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922093: Bridge support available.
+1773922093: Persistence support available.
+1773922093: TLS support available.
+1773922093: TLS-PSK support available.
+1773922093: Websockets support available.
+1773922093: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922093: mosquitto version 2.1.2 terminating
+1773922093: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922106: mosquitto version 2.1.2 starting
+1773922106: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922106: Bridge support available.
+1773922106: Persistence support available.
+1773922106: TLS support available.
+1773922106: TLS-PSK support available.
+1773922106: Websockets support available.
+1773922106: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922106: mosquitto version 2.1.2 terminating
+1773922106: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922132: mosquitto version 2.1.2 starting
+1773922132: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922132: Bridge support available.
+1773922132: Persistence support available.
+1773922132: TLS support available.
+1773922132: TLS-PSK support available.
+1773922132: Websockets support available.
+1773922132: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922132: mosquitto version 2.1.2 terminating
+1773922132: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922226: mosquitto version 2.1.2 starting
+1773922226: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922226: Bridge support available.
+1773922226: Persistence support available.
+1773922226: TLS support available.
+1773922226: TLS-PSK support available.
+1773922226: Websockets support available.
+1773922226: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922226: mosquitto version 2.1.2 terminating
+1773922226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922227: mosquitto version 2.1.2 starting
+1773922227: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922227: Bridge support available.
+1773922227: Persistence support available.
+1773922227: TLS support available.
+1773922227: TLS-PSK support available.
+1773922227: Websockets support available.
+1773922227: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922227: mosquitto version 2.1.2 terminating
+1773922227: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922227: mosquitto version 2.1.2 starting
+1773922227: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922227: Bridge support available.
+1773922227: Persistence support available.
+1773922227: TLS support available.
+1773922227: TLS-PSK support available.
+1773922227: Websockets support available.
+1773922227: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922227: mosquitto version 2.1.2 terminating
+1773922227: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922227: mosquitto version 2.1.2 starting
+1773922227: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922227: Bridge support available.
+1773922227: Persistence support available.
+1773922227: TLS support available.
+1773922227: TLS-PSK support available.
+1773922227: Websockets support available.
+1773922227: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922227: mosquitto version 2.1.2 terminating
+1773922227: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922228: mosquitto version 2.1.2 starting
+1773922228: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922228: Bridge support available.
+1773922228: Persistence support available.
+1773922228: TLS support available.
+1773922228: TLS-PSK support available.
+1773922228: Websockets support available.
+1773922228: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922228: mosquitto version 2.1.2 terminating
+1773922228: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922230: mosquitto version 2.1.2 starting
+1773922230: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922230: Bridge support available.
+1773922230: Persistence support available.
+1773922230: TLS support available.
+1773922230: TLS-PSK support available.
+1773922230: Websockets support available.
+1773922230: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922230: mosquitto version 2.1.2 terminating
+1773922230: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922234: mosquitto version 2.1.2 starting
+1773922234: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922234: Bridge support available.
+1773922234: Persistence support available.
+1773922234: TLS support available.
+1773922234: TLS-PSK support available.
+1773922234: Websockets support available.
+1773922234: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922234: mosquitto version 2.1.2 terminating
+1773922234: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922240: mosquitto version 2.1.2 starting
+1773922240: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922240: Bridge support available.
+1773922240: Persistence support available.
+1773922240: TLS support available.
+1773922240: TLS-PSK support available.
+1773922240: Websockets support available.
+1773922240: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922240: mosquitto version 2.1.2 terminating
+1773922240: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922253: mosquitto version 2.1.2 starting
+1773922253: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922253: Bridge support available.
+1773922253: Persistence support available.
+1773922253: TLS support available.
+1773922253: TLS-PSK support available.
+1773922253: Websockets support available.
+1773922253: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922253: mosquitto version 2.1.2 terminating
+1773922253: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922279: mosquitto version 2.1.2 starting
+1773922279: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922279: Bridge support available.
+1773922279: Persistence support available.
+1773922279: TLS support available.
+1773922279: TLS-PSK support available.
+1773922279: Websockets support available.
+1773922279: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922279: mosquitto version 2.1.2 terminating
+1773922279: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922330: mosquitto version 2.1.2 starting
+1773922330: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922330: Bridge support available.
+1773922330: Persistence support available.
+1773922330: TLS support available.
+1773922330: TLS-PSK support available.
+1773922330: Websockets support available.
+1773922330: password-file: Error: Unable to open pwfile "/mosquitto/config/pwfile".
+1773922330: mosquitto version 2.1.2 terminating
+1773922330: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922390: mosquitto version 2.1.2 starting
+1773922390: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922390: Bridge support available.
+1773922390: Persistence support available.
+1773922390: TLS support available.
+1773922390: TLS-PSK support available.
+1773922390: Websockets support available.
+1773922390: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773922390: Opening ipv4 listen socket on port 1883.
+1773922390: Opening ipv6 listen socket on port 1883.
+1773922390: Opening ipv4 listen socket on port 9001.
+1773922390: Opening ipv6 listen socket on port 9001.
+1773922390: mosquitto version 2.1.2 running
+1773922745: New connection from 192.168.107.1:60366 on port 1883.
+1773922745: Client auto-FB741010-4BED-1B36-D17F-5122363E63D4 [192.168.107.1:60366] disconnected: not authorised.
+1773922747: New connection from 192.168.107.1:60372 on port 1883.
+1773922747: Client auto-E43194C3-2D62-CC2F-0D24-E1A8F25A5C2E [192.168.107.1:60372] disconnected: not authorised.
+1773922757: New connection from 192.168.107.1:52940 on port 1883.
+1773922757: Client auto-9F285DB4-FF9E-0551-E927-2C42E1BB1A64 [192.168.107.1:52940] disconnected: not authorised.
+1773922795: mosquitto version 2.1.2 terminating
+1773922795: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773922796: mosquitto version 2.1.2 starting
+1773922796: Config loaded from /mosquitto/config/mosquitto.conf.
+1773922796: Bridge support available.
+1773922796: Persistence support available.
+1773922796: TLS support available.
+1773922796: TLS-PSK support available.
+1773922796: Websockets support available.
+1773922796: Plugin builtin-security has registered to receive 'basic-auth' events.
+1773922796: Opening ipv4 listen socket on port 1883.
+1773922796: Opening ipv6 listen socket on port 1883.
+1773922796: Opening ipv4 listen socket on port 9001.
+1773922796: Opening ipv6 listen socket on port 9001.
+1773922796: mosquitto version 2.1.2 running
+1773922811: New connection from 192.168.107.1:48766 on port 1883.
+1773922811: Sending CONNACK to auto-31ECA0B6-AF4E-9A99-3C0C-92249A72BF50 (0, 5)
+1773922811: Client auto-31ECA0B6-AF4E-9A99-3C0C-92249A72BF50 [192.168.107.1:48766] disconnected: not authorised.
+1773922819: New connection from 192.168.107.1:48774 on port 1883.
+1773922819: New client connected from 192.168.107.1:48774 as auto-AA624B7E-807B-DC61-B357-11F9DB1B334C (p4, c1, k60, u'iotuser').
+1773922819: No will message specified.
+1773922819: Sending CONNACK to auto-AA624B7E-807B-DC61-B357-11F9DB1B334C (0, 0)
+1773922819: Received SUBSCRIBE from auto-AA624B7E-807B-DC61-B357-11F9DB1B334C
+1773922819: 	test/topic (QoS 0)
+1773922819: Sending SUBACK to auto-AA624B7E-807B-DC61-B357-11F9DB1B334C
+1773922842: New connection from 192.168.107.1:56482 on port 1883.
+1773922842: New client connected from 192.168.107.1:56482 as auto-E56CDD12-0E40-BD90-97C4-4AF916717110 (p4, c1, k60, u'iotuser').
+1773922842: No will message specified.
+1773922842: Sending CONNACK to auto-E56CDD12-0E40-BD90-97C4-4AF916717110 (0, 0)
+1773922842: Received PUBLISH from auto-E56CDD12-0E40-BD90-97C4-4AF916717110 (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773922842: Sending PUBLISH to auto-AA624B7E-807B-DC61-B357-11F9DB1B334C (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773922842: Received DISCONNECT from auto-E56CDD12-0E40-BD90-97C4-4AF916717110
+1773922842: Client auto-E56CDD12-0E40-BD90-97C4-4AF916717110 [192.168.107.1:56482] disconnected.
+1773922879: Received PINGREQ from auto-AA624B7E-807B-DC61-B357-11F9DB1B334C
+1773922879: Sending PINGRESP to auto-AA624B7E-807B-DC61-B357-11F9DB1B334C
+1773922909: Received DISCONNECT from auto-AA624B7E-807B-DC61-B357-11F9DB1B334C
+1773922909: Client auto-AA624B7E-807B-DC61-B357-11F9DB1B334C [192.168.107.1:48774] disconnected.
+1773922964: New connection from 192.168.107.1:52728 on port 1883.
+1773922964: New client connected from 192.168.107.1:52728 as auto-C5B6F3F7-6044-79ED-6B61-598A907564E7 (p4, c1, k60, u'iotuser').
+1773922964: No will message specified.
+1773922964: Sending CONNACK to auto-C5B6F3F7-6044-79ED-6B61-598A907564E7 (0, 0)
+1773922964: Received SUBSCRIBE from auto-C5B6F3F7-6044-79ED-6B61-598A907564E7
+1773922964: 	test/topic (QoS 0)
+1773922964: Sending SUBACK to auto-C5B6F3F7-6044-79ED-6B61-598A907564E7
+1773922974: New connection from 192.168.107.1:59066 on port 1883.
+1773922974: New client connected from 192.168.107.1:59066 as auto-9CF47803-63AE-E0DC-7A0E-C42C9E418737 (p4, c1, k60, u'iotuser').
+1773922974: No will message specified.
+1773922974: Sending CONNACK to auto-9CF47803-63AE-E0DC-7A0E-C42C9E418737 (0, 0)
+1773922974: Received PUBLISH from auto-9CF47803-63AE-E0DC-7A0E-C42C9E418737 (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773922974: Sending PUBLISH to auto-C5B6F3F7-6044-79ED-6B61-598A907564E7 (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773922974: Received DISCONNECT from auto-9CF47803-63AE-E0DC-7A0E-C42C9E418737
+1773922974: Client auto-9CF47803-63AE-E0DC-7A0E-C42C9E418737 [192.168.107.1:59066] disconnected.
+1773923004: Client auto-C5B6F3F7-6044-79ED-6B61-598A907564E7 [192.168.107.1:52728] disconnected: connection closed by client.
+1773923030: New connection from 192.168.107.1:37284 on port 1883.
+1773923030: New client connected from 192.168.107.1:37284 as python_client (p4, c1, k60, u'iotuser').
+1773923030: No will message specified.
+1773923030: Sending CONNACK to python_client (0, 0)
+1773923030: Received SUBSCRIBE from python_client
+1773923030: 	test/topic (QoS 0)
+1773923030: Sending SUBACK to python_client
+1773923074: Client python_client [192.168.107.1:37284] disconnected: connection closed by client.
+1773923075: New connection from 192.168.107.1:48992 on port 1883.
+1773923075: New client connected from 192.168.107.1:48992 as auto-FF60DDF0-49E7-898E-F129-6BE00DE2C9DC (p4, c1, k60, u'iotuser').
+1773923075: No will message specified.
+1773923075: Sending CONNACK to auto-FF60DDF0-49E7-898E-F129-6BE00DE2C9DC (0, 0)
+1773923075: Received SUBSCRIBE from auto-FF60DDF0-49E7-898E-F129-6BE00DE2C9DC
+1773923075: 	test/topic (QoS 0)
+1773923075: Sending SUBACK to auto-FF60DDF0-49E7-898E-F129-6BE00DE2C9DC
+1773923076: Client auto-FF60DDF0-49E7-898E-F129-6BE00DE2C9DC [192.168.107.1:48992] disconnected: connection closed by client.
+1773923096: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773923125: New connection from 192.168.107.1:49034 on port 1883.
+1773923125: New client connected from 192.168.107.1:49034 as auto-A439BFCD-D510-C44E-3B06-52DA92960B1F (p4, c1, k60, u'iotuser').
+1773923125: No will message specified.
+1773923125: Sending CONNACK to auto-A439BFCD-D510-C44E-3B06-52DA92960B1F (0, 0)
+1773923125: Client auto-A439BFCD-D510-C44E-3B06-52DA92960B1F [192.168.107.1:49034] disconnected: connection closed by client.
+1773923166: New connection from 192.168.107.1:58202 on port 1883.
+1773923166: New client connected from 192.168.107.1:58202 as auto-1A1EF000-992B-37EB-EDE2-F612EBE44C9C (p4, c1, k60, u'iotuser').
+1773923166: No will message specified.
+1773923166: Sending CONNACK to auto-1A1EF000-992B-37EB-EDE2-F612EBE44C9C (0, 0)
+1773923166: Received SUBSCRIBE from auto-1A1EF000-992B-37EB-EDE2-F612EBE44C9C
+1773923166: 	test/topic (QoS 0)
+1773923166: Sending SUBACK to auto-1A1EF000-992B-37EB-EDE2-F612EBE44C9C
+1773923195: Client auto-1A1EF000-992B-37EB-EDE2-F612EBE44C9C [192.168.107.1:58202] disconnected: connection closed by client.
+1773923197: New connection from 192.168.107.1:36974 on port 1883.
+1773923197: New client connected from 192.168.107.1:36974 as auto-F0C1959C-9010-8269-E776-C7F5B3F03839 (p4, c1, k60, u'iotuser').
+1773923197: No will message specified.
+1773923197: Sending CONNACK to auto-F0C1959C-9010-8269-E776-C7F5B3F03839 (0, 0)
+1773923197: Received SUBSCRIBE from auto-F0C1959C-9010-8269-E776-C7F5B3F03839
+1773923197: 	test/topic (QoS 0)
+1773923197: Sending SUBACK to auto-F0C1959C-9010-8269-E776-C7F5B3F03839
+1773923206: New connection from 192.168.107.1:58478 on port 1883.
+1773923206: New client connected from 192.168.107.1:58478 as auto-ED0F7B93-559E-E2CF-F581-1E12486F341B (p4, c1, k60, u'iotuser').
+1773923206: No will message specified.
+1773923206: Sending CONNACK to auto-ED0F7B93-559E-E2CF-F581-1E12486F341B (0, 0)
+1773923206: Received PUBLISH from auto-ED0F7B93-559E-E2CF-F581-1E12486F341B (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773923206: Sending PUBLISH to auto-F0C1959C-9010-8269-E776-C7F5B3F03839 (d0, q0, r0, m0, 'test/topic', ... (21 bytes))
+1773923206: Received DISCONNECT from auto-ED0F7B93-559E-E2CF-F581-1E12486F341B
+1773923206: Client auto-ED0F7B93-559E-E2CF-F581-1E12486F341B [192.168.107.1:58478] disconnected.
+1773923258: Received PINGREQ from auto-F0C1959C-9010-8269-E776-C7F5B3F03839
+1773923258: Sending PINGRESP to auto-F0C1959C-9010-8269-E776-C7F5B3F03839
+1773923263: Client auto-F0C1959C-9010-8269-E776-C7F5B3F03839 [192.168.107.1:36974] disconnected: connection closed by client.
+1773923397: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773923511: New connection from 192.168.107.1:55404 on port 1883.
+1773923511: Sending CONNACK to auto-41929C94-A974-C7A9-964C-90945594B405 (0, 5)
+1773923511: Client auto-41929C94-A974-C7A9-964C-90945594B405 [192.168.107.1:55404] disconnected: not authorised.
+1773923512: New connection from 192.168.107.1:55406 on port 1883.
+1773923512: Sending CONNACK to auto-08F420A0-3007-0E1F-788C-E4A87F771A72 (0, 5)
+1773923512: Client auto-08F420A0-3007-0E1F-788C-E4A87F771A72 [192.168.107.1:55406] disconnected: not authorised.
+1773923533: New connection from 192.168.107.1:34840 on port 1883.
+1773923533: Sending CONNACK to auto-F3A45453-A484-08C3-0D9D-64456B5EEC72 (0, 5)
+1773923533: Client auto-F3A45453-A484-08C3-0D9D-64456B5EEC72 [192.168.107.1:34840] disconnected: not authorised.
+1773923534: New connection from 192.168.107.1:34848 on port 1883.
+1773923534: Sending CONNACK to auto-07F2D911-1376-454C-2186-BD651318609A (0, 5)
+1773923534: Client auto-07F2D911-1376-454C-2186-BD651318609A [192.168.107.1:34848] disconnected: not authorised.
+1773923543: New connection from 192.168.107.1:46264 on port 1883.
+1773923543: Sending CONNACK to auto-346B2145-C771-F457-82A8-594BF3E0CD3F (0, 5)
+1773923543: Client auto-346B2145-C771-F457-82A8-594BF3E0CD3F [192.168.107.1:46264] disconnected: not authorised.
+1773923544: New connection from 192.168.107.1:46268 on port 1883.
+1773923544: Sending CONNACK to auto-BAAAB19B-0031-EB83-9D82-F35604941DBD (0, 5)
+1773923544: Client auto-BAAAB19B-0031-EB83-9D82-F35604941DBD [192.168.107.1:46268] disconnected: not authorised.
+1773923550: New connection from 192.168.107.1:53714 on port 1883.
+1773923550: New client connected from 192.168.107.1:53714 as auto-10172D64-8EA1-44F2-D32D-DE92B47AF488 (p4, c1, k60, u'iotuser').
+1773923550: No will message specified.
+1773923550: Sending CONNACK to auto-10172D64-8EA1-44F2-D32D-DE92B47AF488 (0, 0)
+1773923550: Received SUBSCRIBE from auto-10172D64-8EA1-44F2-D32D-DE92B47AF488
+1773923550: 	test/topic (QoS 0)
+1773923550: Sending SUBACK to auto-10172D64-8EA1-44F2-D32D-DE92B47AF488
+1773923551: Client auto-10172D64-8EA1-44F2-D32D-DE92B47AF488 [192.168.107.1:53714] disconnected: connection closed by client.
+1773923698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773925760: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773926060: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773926361: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773926662: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773926963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773927213: New connection from 192.168.107.1:46206 on port 1883.
+1773927213: New client connected from 192.168.107.1:46206 as auto-795227F9-21FF-67FE-374B-60B3ADB32A89 (p4, c1, k60, u'iotuser').
+1773927213: No will message specified.
+1773927213: Sending CONNACK to auto-795227F9-21FF-67FE-374B-60B3ADB32A89 (0, 0)
+1773927213: Received SUBSCRIBE from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927213: 	test/topic (QoS 0)
+1773927213: Sending SUBACK to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773927273: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927273: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927333: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927333: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927393: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927393: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927454: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927454: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927514: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927514: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927565: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773927574: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927574: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927634: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927634: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927694: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927694: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927755: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927755: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927815: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927815: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927866: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773927875: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927875: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927935: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927935: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927957: New connection from 192.168.107.1:29108 on port 1883.
+1773927957: Sending CONNACK to ESPClient-856f (0, 5)
+1773927957: Client ESPClient-856f [192.168.107.1:29108] disconnected: not authorised.
+1773927963: New connection from 192.168.107.1:60396 on port 1883.
+1773927963: Sending CONNACK to ESPClient-f0b1 (0, 5)
+1773927963: Client ESPClient-f0b1 [192.168.107.1:60396] disconnected: not authorised.
+1773927968: New connection from 192.168.107.1:64693 on port 1883.
+1773927968: Sending CONNACK to ESPClient-aa23 (0, 5)
+1773927968: Client ESPClient-aa23 [192.168.107.1:64693] disconnected: not authorised.
+1773927973: New connection from 192.168.107.1:28022 on port 1883.
+1773927973: Sending CONNACK to ESPClient-f8b5 (0, 5)
+1773927973: Client ESPClient-f8b5 [192.168.107.1:28022] disconnected: not authorised.
+1773927978: New connection from 192.168.107.1:34778 on port 1883.
+1773927978: Sending CONNACK to ESPClient-ac03 (0, 5)
+1773927978: Client ESPClient-ac03 [192.168.107.1:34778] disconnected: not authorised.
+1773927995: Received PINGREQ from auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773927995: Sending PINGRESP to auto-795227F9-21FF-67FE-374B-60B3ADB32A89
+1773928009: New connection from 192.168.107.1:20084 on port 1883.
+1773928009: Sending CONNACK to ESPClient-b12f (0, 5)
+1773928009: Client ESPClient-b12f [192.168.107.1:20084] disconnected: not authorised.
+1773928014: New connection from 192.168.107.1:21751 on port 1883.
+1773928014: Sending CONNACK to ESPClient-78a9 (0, 5)
+1773928014: Client ESPClient-78a9 [192.168.107.1:21751] disconnected: not authorised.
+1773928019: New connection from 192.168.107.1:46603 on port 1883.
+1773928019: Sending CONNACK to ESPClient-c7c5 (0, 5)
+1773928019: Client ESPClient-c7c5 [192.168.107.1:46603] disconnected: not authorised.
+1773928024: New connection from 192.168.107.1:36259 on port 1883.
+1773928024: Sending CONNACK to ESPClient-6375 (0, 5)
+1773928024: Client ESPClient-6375 [192.168.107.1:36259] disconnected: not authorised.
+1773928029: New connection from 192.168.107.1:42646 on port 1883.
+1773928029: Sending CONNACK to ESPClient-ec48 (0, 5)
+1773928029: Client ESPClient-ec48 [192.168.107.1:42646] disconnected: not authorised.
+1773928034: New connection from 192.168.107.1:42000 on port 1883.
+1773928034: Sending CONNACK to ESPClient-cacd (0, 5)
+1773928034: Client ESPClient-cacd [192.168.107.1:42000] disconnected: not authorised.
+1773928039: New connection from 192.168.107.1:22271 on port 1883.
+1773928040: Sending CONNACK to ESPClient-6e59 (0, 5)
+1773928040: Client ESPClient-6e59 [192.168.107.1:22271] disconnected: not authorised.
+1773928045: New connection from 192.168.107.1:62213 on port 1883.
+1773928045: Sending CONNACK to ESPClient-bea6 (0, 5)
+1773928045: Client ESPClient-bea6 [192.168.107.1:62213] disconnected: not authorised.
+1773928048: Client auto-795227F9-21FF-67FE-374B-60B3ADB32A89 [192.168.107.1:46206] disconnected: connection closed by client.
+1773928049: New connection from 192.168.107.1:36598 on port 1883.
+1773928049: New client connected from 192.168.107.1:36598 as auto-08752123-FC19-F50D-7E04-669FAA884494 (p4, c1, k60, u'iotuser').
+1773928049: No will message specified.
+1773928049: Sending CONNACK to auto-08752123-FC19-F50D-7E04-669FAA884494 (0, 0)
+1773928049: Received SUBSCRIBE from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928049: 	teste/esp (QoS 0)
+1773928049: Sending SUBACK to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928050: New connection from 192.168.107.1:58688 on port 1883.
+1773928050: Sending CONNACK to ESPClient-f08e (0, 5)
+1773928050: Client ESPClient-f08e [192.168.107.1:58688] disconnected: not authorised.
+1773928055: New connection from 192.168.107.1:53836 on port 1883.
+1773928055: Sending CONNACK to ESPClient-a5de (0, 5)
+1773928055: Client ESPClient-a5de [192.168.107.1:53836] disconnected: not authorised.
+1773928060: New connection from 192.168.107.1:46970 on port 1883.
+1773928060: Sending CONNACK to ESPClient-eec4 (0, 5)
+1773928060: Client ESPClient-eec4 [192.168.107.1:46970] disconnected: not authorised.
+1773928065: New connection from 192.168.107.1:40504 on port 1883.
+1773928065: Sending CONNACK to ESPClient-10b3 (0, 5)
+1773928065: Client ESPClient-10b3 [192.168.107.1:40504] disconnected: not authorised.
+1773928070: New connection from 192.168.107.1:41532 on port 1883.
+1773928070: Sending CONNACK to ESPClient-9eb6 (0, 5)
+1773928070: Client ESPClient-9eb6 [192.168.107.1:41532] disconnected: not authorised.
+1773928075: New connection from 192.168.107.1:37472 on port 1883.
+1773928075: Sending CONNACK to ESPClient-9ae1 (0, 5)
+1773928075: Client ESPClient-9ae1 [192.168.107.1:37472] disconnected: not authorised.
+1773928080: New connection from 192.168.107.1:55034 on port 1883.
+1773928080: Sending CONNACK to ESPClient-9cc2 (0, 5)
+1773928080: Client ESPClient-9cc2 [192.168.107.1:55034] disconnected: not authorised.
+1773928085: New connection from 192.168.107.1:42590 on port 1883.
+1773928085: Sending CONNACK to ESPClient-5f57 (0, 5)
+1773928085: Client ESPClient-5f57 [192.168.107.1:42590] disconnected: not authorised.
+1773928090: New connection from 192.168.107.1:51851 on port 1883.
+1773928090: Sending CONNACK to ESPClient-dd6 (0, 5)
+1773928090: Client ESPClient-dd6 [192.168.107.1:51851] disconnected: not authorised.
+1773928095: New connection from 192.168.107.1:51851 on port 1883.
+1773928095: Sending CONNACK to ESPClient-f3a6 (0, 5)
+1773928095: Client ESPClient-f3a6 [192.168.107.1:51851] disconnected: not authorised.
+1773928100: New connection from 192.168.107.1:32903 on port 1883.
+1773928100: Sending CONNACK to ESPClient-9d73 (0, 5)
+1773928100: Client ESPClient-9d73 [192.168.107.1:32903] disconnected: not authorised.
+1773928105: New connection from 192.168.107.1:54117 on port 1883.
+1773928105: Sending CONNACK to ESPClient-1122 (0, 5)
+1773928105: Client ESPClient-1122 [192.168.107.1:54117] disconnected: not authorised.
+1773928110: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928110: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928110: New connection from 192.168.107.1:35721 on port 1883.
+1773928110: Sending CONNACK to ESPClient-b87e (0, 5)
+1773928110: Client ESPClient-b87e [192.168.107.1:35721] disconnected: not authorised.
+1773928115: New connection from 192.168.107.1:55566 on port 1883.
+1773928115: Sending CONNACK to ESPClient-ee23 (0, 5)
+1773928115: Client ESPClient-ee23 [192.168.107.1:55566] disconnected: not authorised.
+1773928120: New connection from 192.168.107.1:53084 on port 1883.
+1773928120: Sending CONNACK to ESPClient-5588 (0, 5)
+1773928120: Client ESPClient-5588 [192.168.107.1:53084] disconnected: not authorised.
+1773928125: New connection from 192.168.107.1:60025 on port 1883.
+1773928125: Sending CONNACK to ESPClient-f4c1 (0, 5)
+1773928125: Client ESPClient-f4c1 [192.168.107.1:60025] disconnected: not authorised.
+1773928131: New connection from 192.168.107.1:21433 on port 1883.
+1773928131: Sending CONNACK to ESPClient-1b0c (0, 5)
+1773928131: Client ESPClient-1b0c [192.168.107.1:21433] disconnected: not authorised.
+1773928136: New connection from 192.168.107.1:53997 on port 1883.
+1773928136: Sending CONNACK to ESPClient-aa2a (0, 5)
+1773928136: Client ESPClient-aa2a [192.168.107.1:53997] disconnected: not authorised.
+1773928141: New connection from 192.168.107.1:31740 on port 1883.
+1773928141: Sending CONNACK to ESPClient-2726 (0, 5)
+1773928141: Client ESPClient-2726 [192.168.107.1:31740] disconnected: not authorised.
+1773928146: New connection from 192.168.107.1:30269 on port 1883.
+1773928146: Sending CONNACK to ESPClient-7d7a (0, 5)
+1773928146: Client ESPClient-7d7a [192.168.107.1:30269] disconnected: not authorised.
+1773928151: New connection from 192.168.107.1:40311 on port 1883.
+1773928151: Sending CONNACK to ESPClient-dfb7 (0, 5)
+1773928151: Client ESPClient-dfb7 [192.168.107.1:40311] disconnected: not authorised.
+1773928156: New connection from 192.168.107.1:34377 on port 1883.
+1773928156: Sending CONNACK to ESPClient-ae2b (0, 5)
+1773928156: Client ESPClient-ae2b [192.168.107.1:34377] disconnected: not authorised.
+1773928161: New connection from 192.168.107.1:49152 on port 1883.
+1773928161: Sending CONNACK to ESPClient-3918 (0, 5)
+1773928161: Client ESPClient-3918 [192.168.107.1:49152] disconnected: not authorised.
+1773928166: New connection from 192.168.107.1:22050 on port 1883.
+1773928166: Sending CONNACK to ESPClient-b9da (0, 5)
+1773928166: Client ESPClient-b9da [192.168.107.1:22050] disconnected: not authorised.
+1773928167: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773928170: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928170: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928171: New connection from 192.168.107.1:22500 on port 1883.
+1773928171: Sending CONNACK to ESPClient-cd48 (0, 5)
+1773928171: Client ESPClient-cd48 [192.168.107.1:22500] disconnected: not authorised.
+1773928176: New connection from 192.168.107.1:16953 on port 1883.
+1773928176: Sending CONNACK to ESPClient-7b78 (0, 5)
+1773928176: Client ESPClient-7b78 [192.168.107.1:16953] disconnected: not authorised.
+1773928181: New connection from 192.168.107.1:45608 on port 1883.
+1773928181: Sending CONNACK to ESPClient-54eb (0, 5)
+1773928181: Client ESPClient-54eb [192.168.107.1:45608] disconnected: not authorised.
+1773928186: New connection from 192.168.107.1:41873 on port 1883.
+1773928186: Sending CONNACK to ESPClient-39d8 (0, 5)
+1773928186: Client ESPClient-39d8 [192.168.107.1:41873] disconnected: not authorised.
+1773928191: New connection from 192.168.107.1:40987 on port 1883.
+1773928191: Sending CONNACK to ESPClient-bf7c (0, 5)
+1773928191: Client ESPClient-bf7c [192.168.107.1:40987] disconnected: not authorised.
+1773928196: New connection from 192.168.107.1:39409 on port 1883.
+1773928196: Sending CONNACK to ESPClient-e52b (0, 5)
+1773928196: Client ESPClient-e52b [192.168.107.1:39409] disconnected: not authorised.
+1773928201: New connection from 192.168.107.1:32781 on port 1883.
+1773928201: Sending CONNACK to ESPClient-7d04 (0, 5)
+1773928201: Client ESPClient-7d04 [192.168.107.1:32781] disconnected: not authorised.
+1773928206: New connection from 192.168.107.1:60069 on port 1883.
+1773928206: Sending CONNACK to ESPClient-6e59 (0, 5)
+1773928206: Client ESPClient-6e59 [192.168.107.1:60069] disconnected: not authorised.
+1773928211: New connection from 192.168.107.1:30101 on port 1883.
+1773928211: Sending CONNACK to ESPClient-6560 (0, 5)
+1773928211: Client ESPClient-6560 [192.168.107.1:30101] disconnected: not authorised.
+1773928216: New connection from 192.168.107.1:34991 on port 1883.
+1773928216: Sending CONNACK to ESPClient-19ea (0, 5)
+1773928216: Client ESPClient-19ea [192.168.107.1:34991] disconnected: not authorised.
+1773928221: New connection from 192.168.107.1:37394 on port 1883.
+1773928221: Sending CONNACK to ESPClient-1043 (0, 5)
+1773928221: Client ESPClient-1043 [192.168.107.1:37394] disconnected: not authorised.
+1773928226: New connection from 192.168.107.1:34741 on port 1883.
+1773928226: Sending CONNACK to ESPClient-61d6 (0, 5)
+1773928226: Client ESPClient-61d6 [192.168.107.1:34741] disconnected: not authorised.
+1773928230: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928230: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928231: New connection from 192.168.107.1:39922 on port 1883.
+1773928231: Sending CONNACK to ESPClient-61d7 (0, 5)
+1773928231: Client ESPClient-61d7 [192.168.107.1:39922] disconnected: not authorised.
+1773928237: New connection from 192.168.107.1:43691 on port 1883.
+1773928237: Sending CONNACK to ESPClient-b56c (0, 5)
+1773928237: Client ESPClient-b56c [192.168.107.1:43691] disconnected: not authorised.
+1773928242: New connection from 192.168.107.1:27258 on port 1883.
+1773928242: Sending CONNACK to ESPClient-5c23 (0, 5)
+1773928242: Client ESPClient-5c23 [192.168.107.1:27258] disconnected: not authorised.
+1773928247: New connection from 192.168.107.1:56427 on port 1883.
+1773928247: Sending CONNACK to ESPClient-bf68 (0, 5)
+1773928247: Client ESPClient-bf68 [192.168.107.1:56427] disconnected: not authorised.
+1773928252: New connection from 192.168.107.1:31747 on port 1883.
+1773928252: Sending CONNACK to ESPClient-1cce (0, 5)
+1773928252: Client ESPClient-1cce [192.168.107.1:31747] disconnected: not authorised.
+1773928257: New connection from 192.168.107.1:59867 on port 1883.
+1773928257: Sending CONNACK to ESPClient-9313 (0, 5)
+1773928257: Client ESPClient-9313 [192.168.107.1:59867] disconnected: not authorised.
+1773928262: New connection from 192.168.107.1:40633 on port 1883.
+1773928262: Sending CONNACK to ESPClient-6a84 (0, 5)
+1773928262: Client ESPClient-6a84 [192.168.107.1:40633] disconnected: not authorised.
+1773928267: New connection from 192.168.107.1:22139 on port 1883.
+1773928267: Sending CONNACK to ESPClient-ff3a (0, 5)
+1773928267: Client ESPClient-ff3a [192.168.107.1:22139] disconnected: not authorised.
+1773928272: New connection from 192.168.107.1:52680 on port 1883.
+1773928272: Sending CONNACK to ESPClient-f64e (0, 5)
+1773928272: Client ESPClient-f64e [192.168.107.1:52680] disconnected: not authorised.
+1773928277: New connection from 192.168.107.1:58702 on port 1883.
+1773928277: Sending CONNACK to ESPClient-c105 (0, 5)
+1773928277: Client ESPClient-c105 [192.168.107.1:58702] disconnected: not authorised.
+1773928282: New connection from 192.168.107.1:31583 on port 1883.
+1773928282: Sending CONNACK to ESPClient-d4d7 (0, 5)
+1773928282: Client ESPClient-d4d7 [192.168.107.1:31583] disconnected: not authorised.
+1773928287: New connection from 192.168.107.1:34626 on port 1883.
+1773928287: Sending CONNACK to ESPClient-a0df (0, 5)
+1773928287: Client ESPClient-a0df [192.168.107.1:34626] disconnected: not authorised.
+1773928290: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928290: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928292: New connection from 192.168.107.1:57105 on port 1883.
+1773928292: Sending CONNACK to ESPClient-64f8 (0, 5)
+1773928292: Client ESPClient-64f8 [192.168.107.1:57105] disconnected: not authorised.
+1773928297: New connection from 192.168.107.1:19452 on port 1883.
+1773928297: Sending CONNACK to ESPClient-43ad (0, 5)
+1773928297: Client ESPClient-43ad [192.168.107.1:19452] disconnected: not authorised.
+1773928302: New connection from 192.168.107.1:61336 on port 1883.
+1773928302: Sending CONNACK to ESPClient-ebec (0, 5)
+1773928302: Client ESPClient-ebec [192.168.107.1:61336] disconnected: not authorised.
+1773928307: New connection from 192.168.107.1:63168 on port 1883.
+1773928307: Sending CONNACK to ESPClient-7891 (0, 5)
+1773928307: Client ESPClient-7891 [192.168.107.1:63168] disconnected: not authorised.
+1773928312: New connection from 192.168.107.1:61396 on port 1883.
+1773928312: Sending CONNACK to ESPClient-32b9 (0, 5)
+1773928312: Client ESPClient-32b9 [192.168.107.1:61396] disconnected: not authorised.
+1773928317: New connection from 192.168.107.1:19525 on port 1883.
+1773928317: Sending CONNACK to ESPClient-8b3a (0, 5)
+1773928317: Client ESPClient-8b3a [192.168.107.1:19525] disconnected: not authorised.
+1773928322: New connection from 192.168.107.1:40756 on port 1883.
+1773928322: Sending CONNACK to ESPClient-d881 (0, 5)
+1773928322: Client ESPClient-d881 [192.168.107.1:40756] disconnected: not authorised.
+1773928327: New connection from 192.168.107.1:19628 on port 1883.
+1773928327: Sending CONNACK to ESPClient-e97 (0, 5)
+1773928327: Client ESPClient-e97 [192.168.107.1:19628] disconnected: not authorised.
+1773928332: New connection from 192.168.107.1:16458 on port 1883.
+1773928332: Sending CONNACK to ESPClient-ff6a (0, 5)
+1773928332: Client ESPClient-ff6a [192.168.107.1:16458] disconnected: not authorised.
+1773928337: New connection from 192.168.107.1:58126 on port 1883.
+1773928337: Sending CONNACK to ESPClient-692e (0, 5)
+1773928337: Client ESPClient-692e [192.168.107.1:58126] disconnected: not authorised.
+1773928342: New connection from 192.168.107.1:35303 on port 1883.
+1773928342: Sending CONNACK to ESPClient-61e8 (0, 5)
+1773928342: Client ESPClient-61e8 [192.168.107.1:35303] disconnected: not authorised.
+1773928347: New connection from 192.168.107.1:17287 on port 1883.
+1773928347: Sending CONNACK to ESPClient-7c1c (0, 5)
+1773928347: Client ESPClient-7c1c [192.168.107.1:17287] disconnected: not authorised.
+1773928351: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928351: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928352: New connection from 192.168.107.1:29715 on port 1883.
+1773928352: Sending CONNACK to ESPClient-c266 (0, 5)
+1773928352: Client ESPClient-c266 [192.168.107.1:29715] disconnected: not authorised.
+1773928357: New connection from 192.168.107.1:19073 on port 1883.
+1773928357: Sending CONNACK to ESPClient-4419 (0, 5)
+1773928357: Client ESPClient-4419 [192.168.107.1:19073] disconnected: not authorised.
+1773928362: New connection from 192.168.107.1:33690 on port 1883.
+1773928362: Sending CONNACK to ESPClient-cc8a (0, 5)
+1773928362: Client ESPClient-cc8a [192.168.107.1:33690] disconnected: not authorised.
+1773928367: New connection from 192.168.107.1:63063 on port 1883.
+1773928367: Sending CONNACK to ESPClient-523 (0, 5)
+1773928367: Client ESPClient-523 [192.168.107.1:63063] disconnected: not authorised.
+1773928372: New connection from 192.168.107.1:18407 on port 1883.
+1773928372: Sending CONNACK to ESPClient-f6a5 (0, 5)
+1773928372: Client ESPClient-f6a5 [192.168.107.1:18407] disconnected: not authorised.
+1773928377: New connection from 192.168.107.1:16431 on port 1883.
+1773928377: Sending CONNACK to ESPClient-a907 (0, 5)
+1773928377: Client ESPClient-a907 [192.168.107.1:16431] disconnected: not authorised.
+1773928382: New connection from 192.168.107.1:33529 on port 1883.
+1773928382: Sending CONNACK to ESPClient-1ba (0, 5)
+1773928382: Client ESPClient-1ba [192.168.107.1:33529] disconnected: not authorised.
+1773928388: New connection from 192.168.107.1:44154 on port 1883.
+1773928388: Sending CONNACK to ESPClient-e912 (0, 5)
+1773928388: Client ESPClient-e912 [192.168.107.1:44154] disconnected: not authorised.
+1773928393: New connection from 192.168.107.1:36129 on port 1883.
+1773928393: Sending CONNACK to ESPClient-d64d (0, 5)
+1773928393: Client ESPClient-d64d [192.168.107.1:36129] disconnected: not authorised.
+1773928398: New connection from 192.168.107.1:59657 on port 1883.
+1773928398: Sending CONNACK to ESPClient-2ba0 (0, 5)
+1773928398: Client ESPClient-2ba0 [192.168.107.1:59657] disconnected: not authorised.
+1773928403: New connection from 192.168.107.1:32886 on port 1883.
+1773928403: Sending CONNACK to ESPClient-ce4c (0, 5)
+1773928403: Client ESPClient-ce4c [192.168.107.1:32886] disconnected: not authorised.
+1773928408: New connection from 192.168.107.1:60092 on port 1883.
+1773928408: Sending CONNACK to ESPClient-8fdb (0, 5)
+1773928408: Client ESPClient-8fdb [192.168.107.1:60092] disconnected: not authorised.
+1773928411: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928411: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928413: New connection from 192.168.107.1:38631 on port 1883.
+1773928413: Sending CONNACK to ESPClient-8d81 (0, 5)
+1773928413: Client ESPClient-8d81 [192.168.107.1:38631] disconnected: not authorised.
+1773928418: New connection from 192.168.107.1:19886 on port 1883.
+1773928418: Sending CONNACK to ESPClient-23b6 (0, 5)
+1773928418: Client ESPClient-23b6 [192.168.107.1:19886] disconnected: not authorised.
+1773928423: New connection from 192.168.107.1:24255 on port 1883.
+1773928423: Sending CONNACK to ESPClient-5fb7 (0, 5)
+1773928423: Client ESPClient-5fb7 [192.168.107.1:24255] disconnected: not authorised.
+1773928428: New connection from 192.168.107.1:55209 on port 1883.
+1773928428: Sending CONNACK to ESPClient-b77c (0, 5)
+1773928428: Client ESPClient-b77c [192.168.107.1:55209] disconnected: not authorised.
+1773928433: New connection from 192.168.107.1:28918 on port 1883.
+1773928433: Sending CONNACK to ESPClient-4674 (0, 5)
+1773928433: Client ESPClient-4674 [192.168.107.1:28918] disconnected: not authorised.
+1773928438: New connection from 192.168.107.1:58942 on port 1883.
+1773928438: Sending CONNACK to ESPClient-4f04 (0, 5)
+1773928438: Client ESPClient-4f04 [192.168.107.1:58942] disconnected: not authorised.
+1773928443: New connection from 192.168.107.1:17510 on port 1883.
+1773928443: Sending CONNACK to ESPClient-a0f2 (0, 5)
+1773928443: Client ESPClient-a0f2 [192.168.107.1:17510] disconnected: not authorised.
+1773928448: New connection from 192.168.107.1:25012 on port 1883.
+1773928448: Sending CONNACK to ESPClient-1595 (0, 5)
+1773928448: Client ESPClient-1595 [192.168.107.1:25012] disconnected: not authorised.
+1773928456: New connection from 192.168.107.1:29436 on port 1883.
+1773928456: Sending CONNACK to ESPClient-c32 (0, 5)
+1773928456: Client ESPClient-c32 [192.168.107.1:29436] disconnected: not authorised.
+1773928461: New connection from 192.168.107.1:31507 on port 1883.
+1773928461: Sending CONNACK to ESPClient-f773 (0, 5)
+1773928461: Client ESPClient-f773 [192.168.107.1:31507] disconnected: not authorised.
+1773928466: New connection from 192.168.107.1:33831 on port 1883.
+1773928466: Sending CONNACK to ESPClient-a068 (0, 5)
+1773928466: Client ESPClient-a068 [192.168.107.1:33831] disconnected: not authorised.
+1773928468: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773928471: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928471: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928471: New connection from 192.168.107.1:63459 on port 1883.
+1773928471: Sending CONNACK to ESPClient-f79e (0, 5)
+1773928471: Client ESPClient-f79e [192.168.107.1:63459] disconnected: not authorised.
+1773928476: New connection from 192.168.107.1:16127 on port 1883.
+1773928476: Sending CONNACK to ESPClient-e62 (0, 5)
+1773928476: Client ESPClient-e62 [192.168.107.1:16127] disconnected: not authorised.
+1773928481: New connection from 192.168.107.1:61638 on port 1883.
+1773928481: Sending CONNACK to ESPClient-3776 (0, 5)
+1773928481: Client ESPClient-3776 [192.168.107.1:61638] disconnected: not authorised.
+1773928486: New connection from 192.168.107.1:57955 on port 1883.
+1773928486: Sending CONNACK to ESPClient-2131 (0, 5)
+1773928486: Client ESPClient-2131 [192.168.107.1:57955] disconnected: not authorised.
+1773928492: New connection from 192.168.107.1:50201 on port 1883.
+1773928492: Sending CONNACK to ESPClient-a95 (0, 5)
+1773928492: Client ESPClient-a95 [192.168.107.1:50201] disconnected: not authorised.
+1773928497: New connection from 192.168.107.1:52565 on port 1883.
+1773928497: Sending CONNACK to ESPClient-b560 (0, 5)
+1773928497: Client ESPClient-b560 [192.168.107.1:52565] disconnected: not authorised.
+1773928502: New connection from 192.168.107.1:41193 on port 1883.
+1773928502: Sending CONNACK to ESPClient-676c (0, 5)
+1773928502: Client ESPClient-676c [192.168.107.1:41193] disconnected: not authorised.
+1773928507: New connection from 192.168.107.1:32228 on port 1883.
+1773928507: Sending CONNACK to ESPClient-3cef (0, 5)
+1773928507: Client ESPClient-3cef [192.168.107.1:32228] disconnected: not authorised.
+1773928513: New connection from 192.168.107.1:48229 on port 1883.
+1773928513: Sending CONNACK to ESPClient-3424 (0, 5)
+1773928513: Client ESPClient-3424 [192.168.107.1:48229] disconnected: not authorised.
+1773928518: New connection from 192.168.107.1:56827 on port 1883.
+1773928518: Sending CONNACK to ESPClient-a639 (0, 5)
+1773928518: Client ESPClient-a639 [192.168.107.1:56827] disconnected: not authorised.
+1773928523: New connection from 192.168.107.1:29664 on port 1883.
+1773928523: Sending CONNACK to ESPClient-4aa2 (0, 5)
+1773928523: Client ESPClient-4aa2 [192.168.107.1:29664] disconnected: not authorised.
+1773928528: New connection from 192.168.107.1:49090 on port 1883.
+1773928528: Sending CONNACK to ESPClient-528 (0, 5)
+1773928528: Client ESPClient-528 [192.168.107.1:49090] disconnected: not authorised.
+1773928531: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928531: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928533: New connection from 192.168.107.1:42063 on port 1883.
+1773928533: Sending CONNACK to ESPClient-3145 (0, 5)
+1773928533: Client ESPClient-3145 [192.168.107.1:42063] disconnected: not authorised.
+1773928538: New connection from 192.168.107.1:29899 on port 1883.
+1773928538: Sending CONNACK to ESPClient-f4ec (0, 5)
+1773928538: Client ESPClient-f4ec [192.168.107.1:29899] disconnected: not authorised.
+1773928543: New connection from 192.168.107.1:37301 on port 1883.
+1773928543: Sending CONNACK to ESPClient-cc1b (0, 5)
+1773928543: Client ESPClient-cc1b [192.168.107.1:37301] disconnected: not authorised.
+1773928591: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928591: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928602: New connection from 192.168.107.1:56799 on port 1883.
+1773928602: New client connected from 192.168.107.1:56799 as ESPClient-8bbd (p4, c1, k15, u'iotuser').
+1773928602: No will message specified.
+1773928602: Sending CONNACK to ESPClient-8bbd (0, 0)
+1773928602: Received SUBSCRIBE from ESPClient-8bbd
+1773928602: 	teste/esp (QoS 0)
+1773928602: Sending SUBACK to ESPClient-8bbd
+1773928603: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928603: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928603: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928608: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928608: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928608: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928613: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928613: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928613: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928618: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928618: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928618: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928623: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928623: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928623: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928628: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928628: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928628: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928633: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928633: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928633: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928638: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928638: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928638: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928643: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928643: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928643: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928648: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928648: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928648: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928652: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928652: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928653: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928653: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928653: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928658: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928658: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928658: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928663: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928663: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928663: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928668: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928668: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928668: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928673: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928673: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928673: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928678: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928678: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928678: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928683: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928683: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928683: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928688: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928688: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928688: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928693: Received PUBLISH from ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928693: Sending PUBLISH to auto-08752123-FC19-F50D-7E04-669FAA884494 (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928693: Sending PUBLISH to ESPClient-8bbd (d0, q0, r0, m0, 'teste/esp', ... (12 bytes))
+1773928712: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928712: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928715: Client ESPClient-8bbd [192.168.107.1:56799] disconnected: exceeded timeout.
+1773928769: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773928772: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928772: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928832: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773928832: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929040: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929040: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929100: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929100: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929161: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929161: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929218: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773929221: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929221: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929281: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929281: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929341: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929341: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929401: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929401: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929462: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929462: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929519: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773929522: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929522: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929582: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929582: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929642: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929642: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929703: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929703: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929763: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929763: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929820: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773929823: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929823: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929883: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929883: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929943: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773929943: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930004: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930004: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930064: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930064: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930121: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773930153: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930153: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930184: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930184: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930244: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930244: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930304: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930304: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930365: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930365: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930422: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773930425: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930425: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930485: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930485: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930545: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930545: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930606: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930606: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930666: Received PINGREQ from auto-08752123-FC19-F50D-7E04-669FAA884494
+1773930666: Sending PINGRESP to auto-08752123-FC19-F50D-7E04-669FAA884494
+1773961566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1773961566: Client auto-08752123-FC19-F50D-7E04-669FAA884494 [192.168.107.1:36598] disconnected: exceeded timeout.
+1773961567: New connection from 192.168.107.1:40748 on port 1883.
+1773961567: New connection from 192.168.107.1:40758 on port 1883.
+1773961567: New client connected from 192.168.107.1:40748 as auto-D1F64082-B53C-DDDA-115A-368BC7C7B8B8 (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-D1F64082-B53C-DDDA-115A-368BC7C7B8B8 (0, 0)
+1773961567: New connection from 192.168.107.1:40766 on port 1883.
+1773961567: New connection from 192.168.107.1:40778 on port 1883.
+1773961567: New connection from 192.168.107.1:40792 on port 1883.
+1773961567: New connection from 192.168.107.1:40796 on port 1883.
+1773961567: New connection from 192.168.107.1:40798 on port 1883.
+1773961567: Client auto-D1F64082-B53C-DDDA-115A-368BC7C7B8B8 [192.168.107.1:40748] disconnected: connection closed by client.
+1773961567: New client connected from 192.168.107.1:40758 as auto-B0F0B43D-876F-872E-CFB2-A961FB49F582 (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-B0F0B43D-876F-872E-CFB2-A961FB49F582 (0, 0)
+1773961567: Client auto-B0F0B43D-876F-872E-CFB2-A961FB49F582 [192.168.107.1:40758] disconnected: connection closed by client.
+1773961567: New client connected from 192.168.107.1:40766 as auto-7E59C0EA-4788-C326-856C-5E56377CDA46 (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-7E59C0EA-4788-C326-856C-5E56377CDA46 (0, 0)
+1773961567: New client connected from 192.168.107.1:40778 as auto-B8374C43-D258-9A34-F380-B038DE012C9B (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-B8374C43-D258-9A34-F380-B038DE012C9B (0, 0)
+1773961567: New client connected from 192.168.107.1:40792 as auto-AC73B052-24BA-8DEF-EE74-7E0E2C1A7920 (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-AC73B052-24BA-8DEF-EE74-7E0E2C1A7920 (0, 0)
+1773961567: New client connected from 192.168.107.1:40796 as auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368 (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368 (0, 0)
+1773961567: New client connected from 192.168.107.1:40798 as auto-BFA25F08-7E90-37FB-D48D-41E15761427B (p4, c1, k60, u'iotuser').
+1773961567: No will message specified.
+1773961567: Sending CONNACK to auto-BFA25F08-7E90-37FB-D48D-41E15761427B (0, 0)
+1773961567: Client auto-7E59C0EA-4788-C326-856C-5E56377CDA46 [192.168.107.1:40766] disconnected: connection closed by client.
+1773961567: Client auto-B8374C43-D258-9A34-F380-B038DE012C9B [192.168.107.1:40778] disconnected: connection closed by client.
+1773961567: Client auto-AC73B052-24BA-8DEF-EE74-7E0E2C1A7920 [192.168.107.1:40792] disconnected: connection closed by client.
+1773961567: Client auto-BFA25F08-7E90-37FB-D48D-41E15761427B [192.168.107.1:40798] disconnected: connection closed by client.
+1773961567: Received SUBSCRIBE from auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
+1773961567: 	teste/esp (QoS 0)
+1773961567: Sending SUBACK to auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
+1773961569: Received PINGREQ from auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
+1773961569: Sending PINGRESP to auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
+1773961576: Client auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368 [192.168.107.1:40796] disconnected: connection closed by client.
