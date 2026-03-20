@@ -1,4 +1,5 @@
 paho-mqtt
 python-dotenv
 flask
+flask-cors
 uvicorn
