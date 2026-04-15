@@ -24,19 +24,31 @@ class MQTTClient:
 
     def on_message(self, client, userdata, msg):
         data = msg.payload
- 
-        size = struct.calcsize('<f')
-        for i in range(len(data)//size):
-            chunk = data[i*size:(i+1)*size]
-            current, = struct.unpack('<f', chunk)
+        
+        # Format: timestamp (I), rms_sct1 (f), rms_sct2 (f), rms_zmpt1 (f), rms_zmpt2 (f)
+        struct_format = '<Iffff'
+        struct_size = struct.calcsize(struct_format)
+        
+        # Parse all structs in the payload
+        num_structs = len(data) // struct_size
+        for i in range(num_structs):
+            start = i * struct_size
+            end = start + struct_size
+            chunk = data[start:end]
+            
+            timestamp, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2 = struct.unpack(struct_format, chunk)
             
             # Store data point
             data_point = {
-                'value': current,
-                'timestamp': datetime.now().strftime('%H:%M:%S')
+                'timestamp': timestamp,
+                'rms_sct1': rms_sct1,
+                'rms_sct2': rms_sct2,
+                'rms_zmpt1': rms_zmpt1,
+                'rms_zmpt2': rms_zmpt2,
+                'received_at': datetime.now().strftime('%H:%M:%S')
             }
             self.data_points.append(data_point)
-            print(f"Received: {current}")
+            print(f"Received: timestamp={timestamp}, sct1={rms_sct1:.3f}, sct2={rms_sct2:.3f}, zmpt1={rms_zmpt1:.3f}, zmpt2={rms_zmpt2:.3f}")
             
             # Notify all callbacks
             for callback in self.callbacks:
