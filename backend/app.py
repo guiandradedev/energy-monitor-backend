@@ -5,6 +5,7 @@ import json
 from infra.broker.mqtt import MQTTClient
 import queue
 import os
+from infra.database.postgres import engine, text
 
 app = Flask(__name__)
 CORS(app)
@@ -31,13 +32,6 @@ def index():
     """Serve the main dashboard page"""
     return render_template('dashboard.html')
 
-@app.route('/api/data')
-def get_initial_data():
-    """Get initial data points"""
-    return {
-        'data': mqtt_client.get_data()
-    }
-
 @app.route('/api/stream')
 def stream():
     """Server-sent events endpoint for real-time updates"""
@@ -51,9 +45,39 @@ def stream():
     
     return Response(event_generator(), mimetype="text/event-stream")
 
+@app.route('/api/initial-data')
+def get_initial_data():
+    """Serve the main dashboard page"""
+    return {
+        'data': mqtt_client.get_data()
+    }
+
+@app.route('/api/data')
+def get_data():
+    """API endpoint to get all data points"""
+    query = text("""
+        SELECT created_at, device_id, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2
+        FROM breaker
+        ORDER BY created_at DESC
+    """)
+    with engine.connect() as conn:
+        result = conn.execute(query)
+        data = []
+        for row in result:
+            data.append({
+                'created_at': str(row.created_at),
+                'device_id': row.device_id,
+                'rms_sct1': float(row.rms_sct1),
+                'rms_sct2': float(row.rms_sct2),
+                'rms_zmpt1': float(row.rms_zmpt1),
+                'rms_zmpt2': float(row.rms_zmpt2)
+            })
+    return {'data': data}
+
 if __name__ == '__main__':
     host = os.getenv('HOST', '0.0.0.0')
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 8000))
     debug = os.getenv('DEBUG', 'True').lower() in ('1', 'true', 'yes')
     
-    app.run(host=host, port=port, debug=debug, threaded=True)
+    # Disable Flask reloader to prevent multiple MQTT client instances
+    app.run(host=host, port=port, debug=debug, threaded=True, use_reloader=False)
