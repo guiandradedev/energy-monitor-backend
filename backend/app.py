@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
+
 from flask import Flask, render_template, Response
 from flask_cors import CORS
 import threading
@@ -5,7 +8,7 @@ import json
 from infra.broker.mqtt import MQTTClient
 import queue
 import os
-from infra.database.postgres import engine, text
+from infra.database.postgres import get_engine, text
 
 app = Flask(__name__)
 CORS(app)
@@ -60,7 +63,7 @@ def get_data():
         FROM breaker
         ORDER BY created_at DESC
     """)
-    with engine.connect() as conn:
+    with get_engine().connect() as conn:
         result = conn.execute(query)
         data = []
         for row in result:

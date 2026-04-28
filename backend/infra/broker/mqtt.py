@@ -1,10 +1,12 @@
 import paho.mqtt.client as mqtt
 import os
-import struct
+import re
 from collections import deque
 from datetime import datetime
-from infra.database.postgres import engine, text
+from infra.database.postgres import get_engine, text
 import hashlib
+
+breaker_id = "1"
 
 class MQTTClient:
     def __init__(self, broker_host='localhost', broker_port=1883, max_data_points=100):
@@ -71,15 +73,15 @@ class MQTTClient:
             for callback in self.callbacks:
                 callback(data_point)
 
-        with engine.connect() as conn:
+        with get_engine().connect() as conn:
             for dp in data_points_list:
                 query = text("""
-                    INSERT INTO breaker (created_at, device_id, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2)
-                    VALUES (to_timestamp(:timestamp / 1000.0), :device_id, :rms_sct1, :rms_sct2, :rms_zmpt1, :rms_zmpt2)
+                    INSERT INTO breaker (timestamp, breaker_id, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2)
+                    VALUES (CAST(:timestamp AS timestamp with time zone), :breaker_id, :rms_sct1, :rms_sct2, :rms_zmpt1, :rms_zmpt2)
                 """)
                 conn.execute(query, {
                     'timestamp': dp['timestamp'],
-                    'device_id': self.client_id,
+                    'breaker_id': breaker_id,
                     'rms_sct1': dp['rms_sct1'],
                     'rms_sct2': dp['rms_sct2'],
                     'rms_zmpt1': dp['rms_zmpt1'],
