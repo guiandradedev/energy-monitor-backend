@@ -935,3 +935,1472 @@
 1773961569: Received PINGREQ from auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
 1773961569: Sending PINGRESP to auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368
 1773961576: Client auto-8F347ED9-D96F-4A99-6F73-F3CD5DCA9368 [192.168.107.1:40796] disconnected: connection closed by client.
+1776346822: mosquitto version 2.1.2 starting
+1776346822: Config loaded from /mosquitto/config/mosquitto.conf.
+1776346822: Bridge support available.
+1776346822: Persistence support available.
+1776346822: TLS support available.
+1776346822: TLS-PSK support available.
+1776346822: Websockets support available.
+1776346822: Opening ipv4 listen socket on port 1883.
+1776346822: Opening ipv6 listen socket on port 1883.
+1776346822: Opening ipv4 listen socket on port 9001.
+1776346822: Opening ipv6 listen socket on port 9001.
+1776346822: mosquitto version 2.1.2 running
+1776347123: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776347424: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776347725: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776348026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776348080: New connection from 192.168.117.1:22177 on port 1883.
+1776348080: New client connected from 192.168.117.1:22177 as Simulador_ESP32 (p4, c1, k60).
+1776348080: No will message specified.
+1776348080: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348090: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348092: New connection from 192.168.117.1:51668 on port 1883.
+1776348092: New client connected from 192.168.117.1:51668 as auto-BBA4821B-39DE-38A4-2DBF-AD19144F3D6E (p4, c1, k60).
+1776348092: No will message specified.
+1776348092: Sending CONNACK to auto-BBA4821B-39DE-38A4-2DBF-AD19144F3D6E (0, 0)
+1776348092: Client auto-BBA4821B-39DE-38A4-2DBF-AD19144F3D6E [192.168.117.1:51668] disconnected: connection closed by client.
+1776348100: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348110: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348120: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348131: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348141: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348141: Received PINGREQ from Simulador_ESP32
+1776348141: Sending PINGRESP to Simulador_ESP32
+1776348142: New connection from 192.168.117.1:45836 on port 1883.
+1776348142: New client connected from 192.168.117.1:45836 as auto-CEEEDB59-9ABF-CDF8-4FAB-16E95DF86286 (p4, c1, k60).
+1776348142: No will message specified.
+1776348142: Sending CONNACK to auto-CEEEDB59-9ABF-CDF8-4FAB-16E95DF86286 (0, 0)
+1776348142: Received SUBSCRIBE from auto-CEEEDB59-9ABF-CDF8-4FAB-16E95DF86286
+1776348142: 	teste/esp (QoS 0)
+1776348142: Sending SUBACK to auto-CEEEDB59-9ABF-CDF8-4FAB-16E95DF86286
+1776348142: Client auto-CEEEDB59-9ABF-CDF8-4FAB-16E95DF86286 [192.168.117.1:45836] disconnected: connection closed by client.
+1776348151: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348160: New connection from 192.168.117.1:40608 on port 1883.
+1776348160: New client connected from 192.168.117.1:40608 as auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F (p4, c1, k60).
+1776348160: No will message specified.
+1776348160: Sending CONNACK to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F (0, 0)
+1776348160: Received SUBSCRIBE from auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348160: 	teste/esp (QoS 0)
+1776348160: Sending SUBACK to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348160: New connection from 192.168.117.1:40624 on port 1883.
+1776348160: New client connected from 192.168.117.1:40624 as auto-3530A647-2886-12A0-FB5D-39A3147CA5B7 (p4, c1, k60).
+1776348160: No will message specified.
+1776348160: Sending CONNACK to auto-3530A647-2886-12A0-FB5D-39A3147CA5B7 (0, 0)
+1776348160: Received SUBSCRIBE from auto-3530A647-2886-12A0-FB5D-39A3147CA5B7
+1776348160: 	teste/esp (QoS 0)
+1776348160: Sending SUBACK to auto-3530A647-2886-12A0-FB5D-39A3147CA5B7
+1776348161: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348161: Sending PUBLISH to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348161: Sending PUBLISH to auto-3530A647-2886-12A0-FB5D-39A3147CA5B7 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348171: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348171: Sending PUBLISH to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348171: Sending PUBLISH to auto-3530A647-2886-12A0-FB5D-39A3147CA5B7 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348181: Received DISCONNECT from Simulador_ESP32
+1776348181: Client Simulador_ESP32 [192.168.117.1:22177] disconnected.
+1776348220: Received PINGREQ from auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348220: Sending PINGRESP to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348221: Received PINGREQ from auto-3530A647-2886-12A0-FB5D-39A3147CA5B7
+1776348221: Sending PINGRESP to auto-3530A647-2886-12A0-FB5D-39A3147CA5B7
+1776348247: Client auto-3530A647-2886-12A0-FB5D-39A3147CA5B7 [192.168.117.1:40624] disconnected: connection closed by client.
+1776348247: New connection from 192.168.117.1:42680 on port 1883.
+1776348247: New client connected from 192.168.117.1:42680 as auto-E77F8B0B-FB2F-46B5-9A96-D71A2B353F46 (p4, c1, k60).
+1776348247: No will message specified.
+1776348247: Sending CONNACK to auto-E77F8B0B-FB2F-46B5-9A96-D71A2B353F46 (0, 0)
+1776348247: Received SUBSCRIBE from auto-E77F8B0B-FB2F-46B5-9A96-D71A2B353F46
+1776348247: 	teste/esp (QoS 0)
+1776348247: Sending SUBACK to auto-E77F8B0B-FB2F-46B5-9A96-D71A2B353F46
+1776348280: Received PINGREQ from auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348280: Sending PINGRESP to auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F
+1776348293: Client auto-E77F8B0B-FB2F-46B5-9A96-D71A2B353F46 [192.168.117.1:42680] disconnected: connection closed by client.
+1776348293: Client auto-98A71BE9-3E4F-8D1A-B346-35828AD2C06F [192.168.117.1:40608] disconnected: connection closed by client.
+1776348310: New connection from 192.168.117.1:48926 on port 1883.
+1776348310: New client connected from 192.168.117.1:48926 as auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7 (p4, c1, k60).
+1776348310: No will message specified.
+1776348310: Sending CONNACK to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7 (0, 0)
+1776348310: Received SUBSCRIBE from auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348310: 	teste/esp (QoS 0)
+1776348310: Sending SUBACK to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348310: New connection from 192.168.117.1:48934 on port 1883.
+1776348310: New client connected from 192.168.117.1:48934 as auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5 (p4, c1, k60).
+1776348310: No will message specified.
+1776348310: Sending CONNACK to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5 (0, 0)
+1776348310: Received SUBSCRIBE from auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348310: 	teste/esp (QoS 0)
+1776348310: Sending SUBACK to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348318: New connection from 192.168.117.1:27649 on port 1883.
+1776348318: New client connected from 192.168.117.1:27649 as Simulador_ESP32 (p4, c1, k60).
+1776348318: No will message specified.
+1776348318: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348320: Received DISCONNECT from Simulador_ESP32
+1776348320: Client Simulador_ESP32 [192.168.117.1:27649] disconnected.
+1776348327: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776348330: New connection from 192.168.117.1:42523 on port 1883.
+1776348330: New client connected from 192.168.117.1:42523 as Simulador_ESP32 (p4, c1, k60).
+1776348330: No will message specified.
+1776348330: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348334: Received DISCONNECT from Simulador_ESP32
+1776348334: Client Simulador_ESP32 [192.168.117.1:42523] disconnected.
+1776348338: New connection from 192.168.117.1:53999 on port 1883.
+1776348338: New client connected from 192.168.117.1:53999 as Simulador_ESP32 (p4, c1, k60).
+1776348338: No will message specified.
+1776348338: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348349: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348349: Sending PUBLISH to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348349: Sending PUBLISH to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348350: Received DISCONNECT from Simulador_ESP32
+1776348350: Client Simulador_ESP32 [192.168.117.1:53999] disconnected.
+1776348366: New connection from 192.168.117.1:38384 on port 1883.
+1776348366: New client connected from 192.168.117.1:38384 as Simulador_ESP32 (p4, c1, k60).
+1776348366: No will message specified.
+1776348366: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348371: Received PINGREQ from auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348371: Sending PINGRESP to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348371: Received PINGREQ from auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348371: Sending PINGRESP to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348376: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348376: Sending PUBLISH to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348376: Sending PUBLISH to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348377: Received DISCONNECT from Simulador_ESP32
+1776348377: Client Simulador_ESP32 [192.168.117.1:38384] disconnected.
+1776348431: Received PINGREQ from auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348431: Sending PINGRESP to auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5
+1776348431: Received PINGREQ from auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348431: Sending PINGRESP to auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7
+1776348467: Client auto-6279CC5D-8ECA-3247-E52A-CC16E74C39D5 [192.168.117.1:48934] disconnected: connection closed by client.
+1776348467: Client auto-A049A186-7DC5-07F7-DC6D-8F698A065CF7 [192.168.117.1:48926] disconnected: connection closed by client.
+1776348504: New connection from 192.168.117.1:45640 on port 1883.
+1776348504: New client connected from 192.168.117.1:45640 as auto-C873B60C-DB65-A5BD-7720-C11C170A3171 (p4, c1, k60).
+1776348504: No will message specified.
+1776348504: Sending CONNACK to auto-C873B60C-DB65-A5BD-7720-C11C170A3171 (0, 0)
+1776348504: Received UNSUBSCRIBE from auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348504: 	teste/esp
+1776348504: Sending UNSUBACK to auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348504: Received SUBSCRIBE from auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348504: 	teste/esp (QoS 0)
+1776348504: Sending SUBACK to auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348504: New connection from 192.168.117.1:45642 on port 1883.
+1776348504: New client connected from 192.168.117.1:45642 as auto-3187DFF1-E803-65CF-2702-96D49B29BA9F (p4, c1, k60).
+1776348504: No will message specified.
+1776348504: Sending CONNACK to auto-3187DFF1-E803-65CF-2702-96D49B29BA9F (0, 0)
+1776348504: Received UNSUBSCRIBE from auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348504: 	teste/esp
+1776348504: Sending UNSUBACK to auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348504: Received SUBSCRIBE from auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348504: 	teste/esp (QoS 0)
+1776348504: Sending SUBACK to auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348517: New connection from 192.168.117.1:50693 on port 1883.
+1776348517: New client connected from 192.168.117.1:50693 as Simulador_ESP32 (p4, c1, k60).
+1776348517: No will message specified.
+1776348517: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348527: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348527: Sending PUBLISH to auto-C873B60C-DB65-A5BD-7720-C11C170A3171 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348527: Sending PUBLISH to auto-3187DFF1-E803-65CF-2702-96D49B29BA9F (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348528: Received DISCONNECT from Simulador_ESP32
+1776348528: Client Simulador_ESP32 [192.168.117.1:50693] disconnected.
+1776348564: Received PINGREQ from auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348564: Sending PINGRESP to auto-3187DFF1-E803-65CF-2702-96D49B29BA9F
+1776348564: Received PINGREQ from auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348564: Sending PINGRESP to auto-C873B60C-DB65-A5BD-7720-C11C170A3171
+1776348596: Client auto-3187DFF1-E803-65CF-2702-96D49B29BA9F [192.168.117.1:45642] disconnected: connection closed by client.
+1776348596: Client auto-C873B60C-DB65-A5BD-7720-C11C170A3171 [192.168.117.1:45640] disconnected: connection closed by client.
+1776348611: New connection from 192.168.117.1:59462 on port 1883.
+1776348611: New client connected from 192.168.117.1:59462 as auto-233F45F1-DFAD-488E-389D-3557B32199BF (p4, c1, k60).
+1776348611: No will message specified.
+1776348611: Sending CONNACK to auto-233F45F1-DFAD-488E-389D-3557B32199BF (0, 0)
+1776348611: Received UNSUBSCRIBE from auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348611: 	teste/esp
+1776348611: Sending UNSUBACK to auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348611: Received SUBSCRIBE from auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348611: 	teste/esp (QoS 0)
+1776348611: Sending SUBACK to auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348612: New connection from 192.168.117.1:59466 on port 1883.
+1776348612: New client connected from 192.168.117.1:59466 as auto-D7551708-CEC0-8784-48BD-568B185067AA (p4, c1, k60).
+1776348612: No will message specified.
+1776348612: Sending CONNACK to auto-D7551708-CEC0-8784-48BD-568B185067AA (0, 0)
+1776348612: Received UNSUBSCRIBE from auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348612: 	teste/esp
+1776348612: Sending UNSUBACK to auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348612: Received SUBSCRIBE from auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348612: 	teste/esp (QoS 0)
+1776348612: Sending SUBACK to auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348619: New connection from 192.168.117.1:56154 on port 1883.
+1776348619: New client connected from 192.168.117.1:56154 as Simulador_ESP32 (p4, c1, k60).
+1776348619: No will message specified.
+1776348619: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348628: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776348629: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348629: Sending PUBLISH to auto-233F45F1-DFAD-488E-389D-3557B32199BF (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348629: Sending PUBLISH to auto-D7551708-CEC0-8784-48BD-568B185067AA (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348630: Received DISCONNECT from Simulador_ESP32
+1776348630: Client Simulador_ESP32 [192.168.117.1:56154] disconnected.
+1776348672: Received PINGREQ from auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348672: Sending PINGRESP to auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348672: Received PINGREQ from auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348672: Sending PINGRESP to auto-D7551708-CEC0-8784-48BD-568B185067AA
+1776348684: Client auto-D7551708-CEC0-8784-48BD-568B185067AA [192.168.117.1:59466] disconnected: connection closed by client.
+1776348684: New connection from 192.168.117.1:59800 on port 1883.
+1776348684: New client connected from 192.168.117.1:59800 as auto-18C19005-C37B-B2AE-F555-6C3C28593EA1 (p4, c1, k60).
+1776348684: No will message specified.
+1776348684: Sending CONNACK to auto-18C19005-C37B-B2AE-F555-6C3C28593EA1 (0, 0)
+1776348684: Received UNSUBSCRIBE from auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348684: 	teste/esp
+1776348684: Sending UNSUBACK to auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348684: Received SUBSCRIBE from auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348684: 	teste/esp (QoS 0)
+1776348684: Sending SUBACK to auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348687: New connection from 192.168.117.1:33685 on port 1883.
+1776348687: New client connected from 192.168.117.1:33685 as Simulador_ESP32 (p4, c1, k60).
+1776348687: No will message specified.
+1776348687: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348697: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348697: Sending PUBLISH to auto-233F45F1-DFAD-488E-389D-3557B32199BF (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348697: Sending PUBLISH to auto-18C19005-C37B-B2AE-F555-6C3C28593EA1 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348698: Received DISCONNECT from Simulador_ESP32
+1776348698: Client Simulador_ESP32 [192.168.117.1:33685] disconnected.
+1776348733: Received PINGREQ from auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348733: Sending PINGRESP to auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348744: Received PINGREQ from auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348744: Sending PINGRESP to auto-18C19005-C37B-B2AE-F555-6C3C28593EA1
+1776348765: Client auto-18C19005-C37B-B2AE-F555-6C3C28593EA1 [192.168.117.1:59800] disconnected: connection closed by client.
+1776348766: New connection from 192.168.117.1:50276 on port 1883.
+1776348766: New client connected from 192.168.117.1:50276 as auto-97C7A250-E49B-634A-8104-DD75F6894507 (p4, c1, k60).
+1776348766: No will message specified.
+1776348766: Sending CONNACK to auto-97C7A250-E49B-634A-8104-DD75F6894507 (0, 0)
+1776348766: Received UNSUBSCRIBE from auto-97C7A250-E49B-634A-8104-DD75F6894507
+1776348766: 	teste/esp
+1776348766: Sending UNSUBACK to auto-97C7A250-E49B-634A-8104-DD75F6894507
+1776348766: Received SUBSCRIBE from auto-97C7A250-E49B-634A-8104-DD75F6894507
+1776348766: 	teste/esp (QoS 0)
+1776348766: Sending SUBACK to auto-97C7A250-E49B-634A-8104-DD75F6894507
+1776348794: Received PINGREQ from auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348794: Sending PINGRESP to auto-233F45F1-DFAD-488E-389D-3557B32199BF
+1776348811: Client auto-97C7A250-E49B-634A-8104-DD75F6894507 [192.168.117.1:50276] disconnected: connection closed by client.
+1776348812: New connection from 192.168.117.1:40630 on port 1883.
+1776348812: New client connected from 192.168.117.1:40630 as auto-26E0087D-5BBA-E04E-C7CC-94345006DB44 (p4, c1, k60).
+1776348812: No will message specified.
+1776348812: Sending CONNACK to auto-26E0087D-5BBA-E04E-C7CC-94345006DB44 (0, 0)
+1776348812: Received UNSUBSCRIBE from auto-26E0087D-5BBA-E04E-C7CC-94345006DB44
+1776348812: 	teste/esp
+1776348812: Sending UNSUBACK to auto-26E0087D-5BBA-E04E-C7CC-94345006DB44
+1776348812: Received SUBSCRIBE from auto-26E0087D-5BBA-E04E-C7CC-94345006DB44
+1776348812: 	teste/esp (QoS 0)
+1776348812: Sending SUBACK to auto-26E0087D-5BBA-E04E-C7CC-94345006DB44
+1776348826: Client auto-26E0087D-5BBA-E04E-C7CC-94345006DB44 [192.168.117.1:40630] disconnected: connection closed by client.
+1776348826: Client auto-233F45F1-DFAD-488E-389D-3557B32199BF [192.168.117.1:59462] disconnected: connection closed by client.
+1776348827: New connection from 192.168.117.1:40668 on port 1883.
+1776348827: New client connected from 192.168.117.1:40668 as auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A (p4, c1, k60).
+1776348827: No will message specified.
+1776348827: Sending CONNACK to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A (0, 0)
+1776348827: Received UNSUBSCRIBE from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348827: 	teste/esp
+1776348827: Sending UNSUBACK to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348827: Received SUBSCRIBE from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348827: 	teste/esp (QoS 0)
+1776348827: Sending SUBACK to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348828: New connection from 192.168.117.1:40680 on port 1883.
+1776348828: New client connected from 192.168.117.1:40680 as auto-7977035B-5789-D0A3-6007-D6DC5B36191A (p4, c1, k60).
+1776348828: No will message specified.
+1776348828: Sending CONNACK to auto-7977035B-5789-D0A3-6007-D6DC5B36191A (0, 0)
+1776348828: Received UNSUBSCRIBE from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348828: 	teste/esp
+1776348828: Sending UNSUBACK to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348828: Received SUBSCRIBE from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348828: 	teste/esp (QoS 0)
+1776348828: Sending SUBACK to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348833: New connection from 192.168.117.1:36948 on port 1883.
+1776348833: New client connected from 192.168.117.1:36948 as Simulador_ESP32 (p4, c1, k60).
+1776348833: No will message specified.
+1776348833: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776348843: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348843: Sending PUBLISH to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348843: Sending PUBLISH to auto-7977035B-5789-D0A3-6007-D6DC5B36191A (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776348844: Received DISCONNECT from Simulador_ESP32
+1776348844: Client Simulador_ESP32 [192.168.117.1:36948] disconnected.
+1776348888: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348888: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348888: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348888: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348929: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776348948: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348948: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776348948: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776348948: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351795: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351795: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351795: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351795: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351855: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351855: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351855: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351855: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351916: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351916: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351916: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351916: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351976: Received PINGREQ from auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351976: Sending PINGRESP to auto-7977035B-5789-D0A3-6007-D6DC5B36191A
+1776351976: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776351976: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776352017: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776352017: Client auto-7977035B-5789-D0A3-6007-D6DC5B36191A [192.168.117.1:40680] disconnected: connection closed by client.
+1776352017: New connection from 192.168.117.1:44678 on port 1883.
+1776352017: New client connected from 192.168.117.1:44678 as auto-CF266A48-BE6A-863D-0941-042A56A1E5C3 (p4, c1, k60).
+1776352017: No will message specified.
+1776352017: Sending CONNACK to auto-CF266A48-BE6A-863D-0941-042A56A1E5C3 (0, 0)
+1776352017: Received UNSUBSCRIBE from auto-CF266A48-BE6A-863D-0941-042A56A1E5C3
+1776352017: 	teste/esp
+1776352017: Sending UNSUBACK to auto-CF266A48-BE6A-863D-0941-042A56A1E5C3
+1776352017: Received SUBSCRIBE from auto-CF266A48-BE6A-863D-0941-042A56A1E5C3
+1776352017: 	teste/esp (QoS 0)
+1776352017: Sending SUBACK to auto-CF266A48-BE6A-863D-0941-042A56A1E5C3
+1776352036: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776352036: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776352068: Client auto-CF266A48-BE6A-863D-0941-042A56A1E5C3 [192.168.117.1:44678] disconnected: connection closed by client.
+1776352068: New connection from 192.168.117.1:38706 on port 1883.
+1776352068: New client connected from 192.168.117.1:38706 as auto-52C02503-9116-D70A-7967-6C818556652D (p4, c1, k60).
+1776352068: No will message specified.
+1776352068: Sending CONNACK to auto-52C02503-9116-D70A-7967-6C818556652D (0, 0)
+1776352068: Received UNSUBSCRIBE from auto-52C02503-9116-D70A-7967-6C818556652D
+1776352068: 	teste/esp
+1776352068: Sending UNSUBACK to auto-52C02503-9116-D70A-7967-6C818556652D
+1776352068: Received SUBSCRIBE from auto-52C02503-9116-D70A-7967-6C818556652D
+1776352068: 	teste/esp (QoS 0)
+1776352068: Sending SUBACK to auto-52C02503-9116-D70A-7967-6C818556652D
+1776352071: New connection from 192.168.117.1:58673 on port 1883.
+1776352071: New client connected from 192.168.117.1:58673 as Simulador_ESP32 (p4, c1, k60).
+1776352071: No will message specified.
+1776352071: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352081: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352081: Sending PUBLISH to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352081: Sending PUBLISH to auto-52C02503-9116-D70A-7967-6C818556652D (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352082: Received DISCONNECT from Simulador_ESP32
+1776352082: Client Simulador_ESP32 [192.168.117.1:58673] disconnected.
+1776352097: Received PINGREQ from auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776352097: Sending PINGRESP to auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A
+1776352116: Client auto-52C02503-9116-D70A-7967-6C818556652D [192.168.117.1:38706] disconnected: connection closed by client.
+1776352116: New connection from 192.168.117.1:41608 on port 1883.
+1776352116: New client connected from 192.168.117.1:41608 as backend_mqtt_4d68f43c (p4, c1, k60).
+1776352116: No will message specified.
+1776352116: Sending CONNACK to backend_mqtt_4d68f43c (0, 0)
+1776352116: Received UNSUBSCRIBE from backend_mqtt_4d68f43c
+1776352116: 	teste/esp
+1776352116: Sending UNSUBACK to backend_mqtt_4d68f43c
+1776352116: Received SUBSCRIBE from backend_mqtt_4d68f43c
+1776352116: 	teste/esp (QoS 0)
+1776352116: Sending SUBACK to backend_mqtt_4d68f43c
+1776352121: Client backend_mqtt_4d68f43c [192.168.117.1:41608] disconnected: connection closed by client.
+1776352122: New connection from 192.168.117.1:41624 on port 1883.
+1776352122: New client connected from 192.168.117.1:41624 as backend_mqtt_50734127 (p4, c1, k60).
+1776352122: No will message specified.
+1776352122: Sending CONNACK to backend_mqtt_50734127 (0, 0)
+1776352122: Received UNSUBSCRIBE from backend_mqtt_50734127
+1776352122: 	teste/esp
+1776352122: Sending UNSUBACK to backend_mqtt_50734127
+1776352122: Received SUBSCRIBE from backend_mqtt_50734127
+1776352122: 	teste/esp (QoS 0)
+1776352122: Sending SUBACK to backend_mqtt_50734127
+1776352132: Client backend_mqtt_50734127 [192.168.117.1:41624] disconnected: connection closed by client.
+1776352132: New connection from 192.168.117.1:54002 on port 1883.
+1776352132: New client connected from 192.168.117.1:54002 as backend_mqtt_7b04d84c (p4, c1, k60).
+1776352132: No will message specified.
+1776352132: Sending CONNACK to backend_mqtt_7b04d84c (0, 0)
+1776352132: Received UNSUBSCRIBE from backend_mqtt_7b04d84c
+1776352132: 	teste/esp
+1776352132: Sending UNSUBACK to backend_mqtt_7b04d84c
+1776352132: Received SUBSCRIBE from backend_mqtt_7b04d84c
+1776352132: 	teste/esp (QoS 0)
+1776352132: Sending SUBACK to backend_mqtt_7b04d84c
+1776352143: Client backend_mqtt_7b04d84c [192.168.117.1:54002] disconnected: connection closed by client.
+1776352143: Client auto-A4E54EC2-D03F-260C-E2EB-60C400169B0A [192.168.117.1:40668] disconnected: connection closed by client.
+1776352144: New connection from 192.168.117.1:45930 on port 1883.
+1776352144: New client connected from 192.168.117.1:45930 as backend_mqtt_d8e8482a (p4, c1, k60).
+1776352144: No will message specified.
+1776352144: Sending CONNACK to backend_mqtt_d8e8482a (0, 0)
+1776352144: Received UNSUBSCRIBE from backend_mqtt_d8e8482a
+1776352144: 	teste/esp
+1776352144: Sending UNSUBACK to backend_mqtt_d8e8482a
+1776352144: Received SUBSCRIBE from backend_mqtt_d8e8482a
+1776352144: 	teste/esp (QoS 0)
+1776352144: Sending SUBACK to backend_mqtt_d8e8482a
+1776352144: New connection from 192.168.117.1:45934 on port 1883.
+1776352144: New client connected from 192.168.117.1:45934 as backend_mqtt_b29e1aaa (p4, c1, k60).
+1776352144: No will message specified.
+1776352144: Sending CONNACK to backend_mqtt_b29e1aaa (0, 0)
+1776352144: Received UNSUBSCRIBE from backend_mqtt_b29e1aaa
+1776352144: 	teste/esp
+1776352144: Sending UNSUBACK to backend_mqtt_b29e1aaa
+1776352144: Received SUBSCRIBE from backend_mqtt_b29e1aaa
+1776352144: 	teste/esp (QoS 0)
+1776352144: Sending SUBACK to backend_mqtt_b29e1aaa
+1776352156: New connection from 192.168.117.1:44861 on port 1883.
+1776352156: New client connected from 192.168.117.1:44861 as Simulador_ESP32 (p4, c1, k60).
+1776352156: No will message specified.
+1776352156: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352166: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352166: Sending PUBLISH to backend_mqtt_d8e8482a (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352166: Sending PUBLISH to backend_mqtt_b29e1aaa (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352167: Received DISCONNECT from Simulador_ESP32
+1776352167: Client Simulador_ESP32 [192.168.117.1:44861] disconnected.
+1776352191: Client backend_mqtt_b29e1aaa [192.168.117.1:45934] disconnected: connection closed by client.
+1776352191: New connection from 192.168.117.1:50960 on port 1883.
+1776352191: New client connected from 192.168.117.1:50960 as backend_mqtt_a6b1cf41 (p4, c1, k60).
+1776352191: No will message specified.
+1776352191: Sending CONNACK to backend_mqtt_a6b1cf41 (0, 0)
+1776352191: Received UNSUBSCRIBE from backend_mqtt_a6b1cf41
+1776352191: 	teste/esp
+1776352191: Sending UNSUBACK to backend_mqtt_a6b1cf41
+1776352191: Received SUBSCRIBE from backend_mqtt_a6b1cf41
+1776352191: 	teste/esp (QoS 0)
+1776352191: Sending SUBACK to backend_mqtt_a6b1cf41
+1776352204: Received PINGREQ from backend_mqtt_d8e8482a
+1776352204: Sending PINGRESP to backend_mqtt_d8e8482a
+1776352205: New connection from 192.168.117.1:45411 on port 1883.
+1776352205: New client connected from 192.168.117.1:45411 as Simulador_ESP32 (p4, c1, k60).
+1776352205: No will message specified.
+1776352205: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352215: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352215: Sending PUBLISH to backend_mqtt_d8e8482a (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352215: Sending PUBLISH to backend_mqtt_a6b1cf41 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352218: Received DISCONNECT from Simulador_ESP32
+1776352218: Client Simulador_ESP32 [192.168.117.1:45411] disconnected.
+1776352251: Received PINGREQ from backend_mqtt_a6b1cf41
+1776352251: Sending PINGRESP to backend_mqtt_a6b1cf41
+1776352260: Client backend_mqtt_d8e8482a [192.168.117.1:45930] disconnected: connection closed by client.
+1776352260: Client backend_mqtt_a6b1cf41 [192.168.117.1:50960] disconnected: connection closed by client.
+1776352318: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776352342: New connection from 192.168.117.1:33904 on port 1883.
+1776352342: New client connected from 192.168.117.1:33904 as backend_mqtt_aa720548 (p4, c1, k60).
+1776352342: No will message specified.
+1776352342: Sending CONNACK to backend_mqtt_aa720548 (0, 0)
+1776352342: Received UNSUBSCRIBE from backend_mqtt_aa720548
+1776352342: 	teste/esp
+1776352342: Sending UNSUBACK to backend_mqtt_aa720548
+1776352342: Received SUBSCRIBE from backend_mqtt_aa720548
+1776352342: 	teste/esp (QoS 0)
+1776352342: Sending SUBACK to backend_mqtt_aa720548
+1776352353: New connection from 192.168.117.1:23633 on port 1883.
+1776352353: New client connected from 192.168.117.1:23633 as Simulador_ESP32 (p4, c1, k60).
+1776352353: No will message specified.
+1776352353: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352363: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352363: Sending PUBLISH to backend_mqtt_aa720548 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352364: Received DISCONNECT from Simulador_ESP32
+1776352364: Client Simulador_ESP32 [192.168.117.1:23633] disconnected.
+1776352402: Received PINGREQ from backend_mqtt_aa720548
+1776352402: Sending PINGRESP to backend_mqtt_aa720548
+1776352462: Received PINGREQ from backend_mqtt_aa720548
+1776352462: Sending PINGRESP to backend_mqtt_aa720548
+1776352522: Received PINGREQ from backend_mqtt_aa720548
+1776352522: Sending PINGRESP to backend_mqtt_aa720548
+1776352583: Received PINGREQ from backend_mqtt_aa720548
+1776352583: Sending PINGRESP to backend_mqtt_aa720548
+1776352619: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776352643: Received PINGREQ from backend_mqtt_aa720548
+1776352643: Sending PINGRESP to backend_mqtt_aa720548
+1776352663: Client backend_mqtt_aa720548 [192.168.117.1:33904] disconnected: connection closed by client.
+1776352664: New connection from 192.168.117.1:45688 on port 1883.
+1776352664: New client connected from 192.168.117.1:45688 as backend_mqtt_bb11045d (p4, c1, k60).
+1776352664: No will message specified.
+1776352664: Sending CONNACK to backend_mqtt_bb11045d (0, 0)
+1776352664: Received UNSUBSCRIBE from backend_mqtt_bb11045d
+1776352664: 	teste/esp
+1776352664: Sending UNSUBACK to backend_mqtt_bb11045d
+1776352664: Received SUBSCRIBE from backend_mqtt_bb11045d
+1776352664: 	teste/esp (QoS 0)
+1776352664: Sending SUBACK to backend_mqtt_bb11045d
+1776352677: New connection from 192.168.117.1:55040 on port 1883.
+1776352677: New client connected from 192.168.117.1:55040 as Simulador_ESP32 (p4, c1, k60).
+1776352677: No will message specified.
+1776352677: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352688: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352688: Sending PUBLISH to backend_mqtt_bb11045d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352689: Received DISCONNECT from Simulador_ESP32
+1776352689: Client Simulador_ESP32 [192.168.117.1:55040] disconnected.
+1776352725: Received PINGREQ from backend_mqtt_bb11045d
+1776352725: Sending PINGRESP to backend_mqtt_bb11045d
+1776352783: New connection from 192.168.117.1:44763 on port 1883.
+1776352783: New client connected from 192.168.117.1:44763 as Simulador_ESP32 (p4, c1, k60).
+1776352783: No will message specified.
+1776352783: Sending CONNACK to Simulador_ESP32 (0, 0)
+1776352785: Received PINGREQ from backend_mqtt_bb11045d
+1776352785: Sending PINGRESP to backend_mqtt_bb11045d
+1776352793: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352793: Sending PUBLISH to backend_mqtt_bb11045d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1776352794: Received DISCONNECT from Simulador_ESP32
+1776352794: Client Simulador_ESP32 [192.168.117.1:44763] disconnected.
+1776352804: Client backend_mqtt_bb11045d [192.168.117.1:45688] disconnected: connection closed by client.
+1776352805: New connection from 192.168.117.1:39810 on port 1883.
+1776352805: New client connected from 192.168.117.1:39810 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776352805: No will message specified.
+1776352805: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776352805: Received UNSUBSCRIBE from backend_mqtt_54dbc335
+1776352805: 	teste/esp
+1776352805: Sending UNSUBACK to backend_mqtt_54dbc335
+1776352805: Received SUBSCRIBE from backend_mqtt_54dbc335
+1776352805: 	teste/esp (QoS 0)
+1776352805: Sending SUBACK to backend_mqtt_54dbc335
+1776352865: Received PINGREQ from backend_mqtt_54dbc335
+1776352865: Sending PINGRESP to backend_mqtt_54dbc335
+1776352920: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776352926: Received PINGREQ from backend_mqtt_54dbc335
+1776352926: Sending PINGRESP to backend_mqtt_54dbc335
+1776352986: Received PINGREQ from backend_mqtt_54dbc335
+1776352986: Sending PINGRESP to backend_mqtt_54dbc335
+1776353046: Received PINGREQ from backend_mqtt_54dbc335
+1776353046: Sending PINGRESP to backend_mqtt_54dbc335
+1776355135: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776355135: Client backend_mqtt_54dbc335 [192.168.117.1:39810] disconnected: exceeded timeout.
+1776355135: New connection from 192.168.117.1:36668 on port 1883.
+1776355136: New client connected from 192.168.117.1:36668 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: New connection from 192.168.117.1:36658 on port 1883.
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36668] disconnected: session taken over.
+1776355136: New client connected from 192.168.117.1:36658 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: New connection from 192.168.117.1:36660 on port 1883.
+1776355136: New connection from 192.168.117.1:36698 on port 1883.
+1776355136: New connection from 192.168.117.1:36700 on port 1883.
+1776355136: New connection from 192.168.117.1:36704 on port 1883.
+1776355136: New connection from 192.168.117.1:36710 on port 1883.
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36658] disconnected: session taken over.
+1776355136: New client connected from 192.168.117.1:36698 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36698] disconnected: session taken over.
+1776355136: New client connected from 192.168.117.1:36700 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36700] disconnected: connection closed by client.
+1776355136: New client connected from 192.168.117.1:36710 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36710] disconnected: session taken over.
+1776355136: New client connected from 192.168.117.1:36704 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36704] disconnected: connection closed by client.
+1776355136: New connection from 192.168.117.1:36694 on port 1883.
+1776355136: New connection from 192.168.117.1:36712 on port 1883.
+1776355136: New client connected from 192.168.117.1:36694 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36694] disconnected: session taken over.
+1776355136: New client connected from 192.168.117.1:36712 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36712] disconnected: connection closed by client.
+1776355136: New connection from 192.168.117.1:36684 on port 1883.
+1776355136: New client connected from 192.168.117.1:36684 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Client backend_mqtt_54dbc335 [192.168.117.1:36684] disconnected: connection closed by client.
+1776355136: New client connected from 192.168.117.1:36660 as backend_mqtt_54dbc335 (p4, c1, k60).
+1776355136: No will message specified.
+1776355136: Sending CONNACK to backend_mqtt_54dbc335 (0, 0)
+1776355136: Received UNSUBSCRIBE from backend_mqtt_54dbc335
+1776355136: 	teste/esp
+1776355136: Sending UNSUBACK to backend_mqtt_54dbc335
+1776355136: Received SUBSCRIBE from backend_mqtt_54dbc335
+1776355136: 	teste/esp (QoS 0)
+1776355136: Sending SUBACK to backend_mqtt_54dbc335
+1776355187: Received PINGREQ from backend_mqtt_54dbc335
+1776355187: Sending PINGRESP to backend_mqtt_54dbc335
+1776355248: Received PINGREQ from backend_mqtt_54dbc335
+1776355248: Sending PINGRESP to backend_mqtt_54dbc335
+1776355295: Client backend_mqtt_54dbc335 [192.168.117.1:36660] disconnected: connection closed by client.
+1776355436: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776355737: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776356038: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776356339: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776356640: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776356941: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776357242: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776357543: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776357844: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776358145: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776358446: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776358747: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776359048: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776359349: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776359650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776359951: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776360252: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776361211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776361512: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776361813: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776362114: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776362415: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776362634: mosquitto version 2.1.2 terminating
+1776362634: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777240118: mosquitto version 2.1.2 starting
+1777240118: Config loaded from /mosquitto/config/mosquitto.conf.
+1777240118: Bridge support available.
+1777240118: Persistence support available.
+1777240118: TLS support available.
+1777240118: TLS-PSK support available.
+1777240118: Websockets support available.
+1777240118: Opening ipv4 listen socket on port 1883.
+1777240118: Opening ipv6 listen socket on port 1883.
+1777240118: Opening ipv4 listen socket on port 9001.
+1777240118: Opening ipv6 listen socket on port 9001.
+1777240118: mosquitto version 2.1.2 running
+1777240419: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777240444: mosquitto version 2.1.2 terminating
+1777240444: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777240445: mosquitto version 2.1.2 starting
+1777240445: Config loaded from /mosquitto/config/mosquitto.conf.
+1777240445: Bridge support available.
+1777240445: Persistence support available.
+1777240445: TLS support available.
+1777240445: TLS-PSK support available.
+1777240445: Websockets support available.
+1777240445: Opening ipv4 listen socket on port 1883.
+1777240445: Opening ipv6 listen socket on port 1883.
+1777240445: Opening ipv4 listen socket on port 9001.
+1777240445: Opening ipv6 listen socket on port 9001.
+1777240445: mosquitto version 2.1.2 running
+1777240453: New connection from 192.168.117.1:32812 on port 1883.
+1777240453: New client connected from 192.168.117.1:32812 as backend_mqtt_3d7d1922 (p4, c1, k60).
+1777240453: No will message specified.
+1777240453: Sending CONNACK to backend_mqtt_3d7d1922 (0, 0)
+1777240453: Received UNSUBSCRIBE from backend_mqtt_3d7d1922
+1777240453: 	teste/esp
+1777240453: Sending UNSUBACK to backend_mqtt_3d7d1922
+1777240453: Received SUBSCRIBE from backend_mqtt_3d7d1922
+1777240453: 	teste/esp (QoS 0)
+1777240453: Sending SUBACK to backend_mqtt_3d7d1922
+1777240477: New connection from 192.168.117.1:40686 on port 1883.
+1777240477: New client connected from 192.168.117.1:40686 as Simulador_ESP32 (p4, c1, k60).
+1777240477: No will message specified.
+1777240477: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777240487: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240487: Sending PUBLISH to backend_mqtt_3d7d1922 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240497: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240497: Sending PUBLISH to backend_mqtt_3d7d1922 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240507: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240507: Sending PUBLISH to backend_mqtt_3d7d1922 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240510: Received DISCONNECT from Simulador_ESP32
+1777240510: Client Simulador_ESP32 [192.168.117.1:40686] disconnected.
+1777240513: Received PINGREQ from backend_mqtt_3d7d1922
+1777240513: Sending PINGRESP to backend_mqtt_3d7d1922
+1777240570: Client backend_mqtt_3d7d1922 [192.168.117.1:32812] disconnected: connection closed by client.
+1777240571: New connection from 192.168.117.1:54576 on port 1883.
+1777240571: New client connected from 192.168.117.1:54576 as backend_mqtt_a0ac2d0e (p4, c1, k60).
+1777240571: No will message specified.
+1777240571: Sending CONNACK to backend_mqtt_a0ac2d0e (0, 0)
+1777240571: Received UNSUBSCRIBE from backend_mqtt_a0ac2d0e
+1777240571: 	teste/esp
+1777240571: Sending UNSUBACK to backend_mqtt_a0ac2d0e
+1777240571: Received SUBSCRIBE from backend_mqtt_a0ac2d0e
+1777240571: 	teste/esp (QoS 0)
+1777240571: Sending SUBACK to backend_mqtt_a0ac2d0e
+1777240573: New connection from 192.168.117.1:54364 on port 1883.
+1777240573: New client connected from 192.168.117.1:54364 as Simulador_ESP32 (p4, c1, k60).
+1777240573: No will message specified.
+1777240573: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777240583: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240583: Sending PUBLISH to backend_mqtt_a0ac2d0e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240593: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240593: Sending PUBLISH to backend_mqtt_a0ac2d0e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240594: Received DISCONNECT from Simulador_ESP32
+1777240594: Client Simulador_ESP32 [192.168.117.1:54364] disconnected.
+1777240605: Client backend_mqtt_a0ac2d0e [192.168.117.1:54576] disconnected: connection closed by client.
+1777240606: New connection from 192.168.117.1:43290 on port 1883.
+1777240606: New client connected from 192.168.117.1:43290 as backend_mqtt_929d6a19 (p4, c1, k60).
+1777240606: No will message specified.
+1777240606: Sending CONNACK to backend_mqtt_929d6a19 (0, 0)
+1777240606: Received UNSUBSCRIBE from backend_mqtt_929d6a19
+1777240606: 	teste/esp
+1777240606: Sending UNSUBACK to backend_mqtt_929d6a19
+1777240606: Received SUBSCRIBE from backend_mqtt_929d6a19
+1777240606: 	teste/esp (QoS 0)
+1777240606: Sending SUBACK to backend_mqtt_929d6a19
+1777240667: Received PINGREQ from backend_mqtt_929d6a19
+1777240667: Sending PINGRESP to backend_mqtt_929d6a19
+1777240727: Received PINGREQ from backend_mqtt_929d6a19
+1777240727: Sending PINGRESP to backend_mqtt_929d6a19
+1777240746: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777240787: Received PINGREQ from backend_mqtt_929d6a19
+1777240787: Sending PINGRESP to backend_mqtt_929d6a19
+1777240821: New connection from 192.168.117.1:57360 on port 1883.
+1777240821: New client connected from 192.168.117.1:57360 as Simulador_ESP32 (p4, c1, k60).
+1777240821: No will message specified.
+1777240821: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777240831: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240831: Sending PUBLISH to backend_mqtt_929d6a19 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777240833: Received DISCONNECT from Simulador_ESP32
+1777240833: Client Simulador_ESP32 [192.168.117.1:57360] disconnected.
+1777240847: Client backend_mqtt_929d6a19 [192.168.117.1:43290] disconnected: connection closed by client.
+1777240848: New connection from 192.168.117.1:33194 on port 1883.
+1777240848: New client connected from 192.168.117.1:33194 as backend_mqtt_47fa0d21 (p4, c1, k60).
+1777240848: No will message specified.
+1777240848: Sending CONNACK to backend_mqtt_47fa0d21 (0, 0)
+1777240848: Received UNSUBSCRIBE from backend_mqtt_47fa0d21
+1777240848: 	teste/esp
+1777240848: Sending UNSUBACK to backend_mqtt_47fa0d21
+1777240848: Received SUBSCRIBE from backend_mqtt_47fa0d21
+1777240848: 	teste/esp (QoS 0)
+1777240848: Sending SUBACK to backend_mqtt_47fa0d21
+1777240880: Client backend_mqtt_47fa0d21 [192.168.117.1:33194] disconnected: connection closed by client.
+1777240882: New connection from 192.168.117.1:41174 on port 1883.
+1777240882: New client connected from 192.168.117.1:41174 as backend_mqtt_341ed9d3 (p4, c1, k60).
+1777240882: No will message specified.
+1777240882: Sending CONNACK to backend_mqtt_341ed9d3 (0, 0)
+1777240882: Received UNSUBSCRIBE from backend_mqtt_341ed9d3
+1777240882: 	teste/esp
+1777240882: Sending UNSUBACK to backend_mqtt_341ed9d3
+1777240882: Received SUBSCRIBE from backend_mqtt_341ed9d3
+1777240882: 	teste/esp (QoS 0)
+1777240882: Sending SUBACK to backend_mqtt_341ed9d3
+1777240942: Received PINGREQ from backend_mqtt_341ed9d3
+1777240942: Sending PINGRESP to backend_mqtt_341ed9d3
+1777240972: Client backend_mqtt_341ed9d3 [192.168.117.1:41174] disconnected: connection closed by client.
+1777241047: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777241348: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777241649: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777241950: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777242251: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777242552: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777242853: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777243154: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777243455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777243756: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777244057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777244358: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777244659: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777244960: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777245261: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777245562: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777251221: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777251522: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777251823: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777252124: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777252425: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777252726: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777253027: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777253328: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777253629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777253930: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777254231: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777254532: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777254833: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777255134: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777255435: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777255736: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777256037: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777256243: mosquitto version 2.1.2 terminating
+1777256243: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777382722: mosquitto version 2.1.2 starting
+1777382722: Config loaded from /mosquitto/config/mosquitto.conf.
+1777382722: Bridge support available.
+1777382722: Persistence support available.
+1777382722: TLS support available.
+1777382722: TLS-PSK support available.
+1777382722: Websockets support available.
+1777382722: Opening ipv4 listen socket on port 1883.
+1777382722: Opening ipv6 listen socket on port 1883.
+1777382722: Opening ipv4 listen socket on port 9001.
+1777382722: Opening ipv6 listen socket on port 9001.
+1777382722: mosquitto version 2.1.2 running
+1777383022: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777383323: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777383620: New connection from 192.168.117.1:39354 on port 1883.
+1777383620: New client connected from 192.168.117.1:39354 as backend_mqtt_883c865d (p4, c1, k60).
+1777383620: No will message specified.
+1777383620: Sending CONNACK to backend_mqtt_883c865d (0, 0)
+1777383620: Received UNSUBSCRIBE from backend_mqtt_883c865d
+1777383620: 	teste/esp
+1777383620: Sending UNSUBACK to backend_mqtt_883c865d
+1777383620: Received SUBSCRIBE from backend_mqtt_883c865d
+1777383620: 	teste/esp (QoS 0)
+1777383620: Sending SUBACK to backend_mqtt_883c865d
+1777383624: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777383680: Received PINGREQ from backend_mqtt_883c865d
+1777383680: Sending PINGRESP to backend_mqtt_883c865d
+1777383740: Received PINGREQ from backend_mqtt_883c865d
+1777383740: Sending PINGRESP to backend_mqtt_883c865d
+1777383801: Received PINGREQ from backend_mqtt_883c865d
+1777383801: Sending PINGRESP to backend_mqtt_883c865d
+1777383861: Received PINGREQ from backend_mqtt_883c865d
+1777383861: Sending PINGRESP to backend_mqtt_883c865d
+1777383921: Received PINGREQ from backend_mqtt_883c865d
+1777383921: Sending PINGRESP to backend_mqtt_883c865d
+1777383925: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777383981: Received PINGREQ from backend_mqtt_883c865d
+1777383981: Sending PINGRESP to backend_mqtt_883c865d
+1777384041: Received PINGREQ from backend_mqtt_883c865d
+1777384041: Sending PINGRESP to backend_mqtt_883c865d
+1777384102: Received PINGREQ from backend_mqtt_883c865d
+1777384102: Sending PINGRESP to backend_mqtt_883c865d
+1777384162: Received PINGREQ from backend_mqtt_883c865d
+1777384162: Sending PINGRESP to backend_mqtt_883c865d
+1777384222: Received PINGREQ from backend_mqtt_883c865d
+1777384222: Sending PINGRESP to backend_mqtt_883c865d
+1777384226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777384282: Received PINGREQ from backend_mqtt_883c865d
+1777384282: Sending PINGRESP to backend_mqtt_883c865d
+1777384343: Received PINGREQ from backend_mqtt_883c865d
+1777384343: Sending PINGRESP to backend_mqtt_883c865d
+1777384403: Received PINGREQ from backend_mqtt_883c865d
+1777384403: Sending PINGRESP to backend_mqtt_883c865d
+1777384405: Client backend_mqtt_883c865d [192.168.117.1:39354] disconnected: connection closed by client.
+1777384407: New connection from 192.168.117.1:42852 on port 1883.
+1777384407: New client connected from 192.168.117.1:42852 as backend_mqtt_8220540b (p4, c1, k60).
+1777384407: No will message specified.
+1777384407: Sending CONNACK to backend_mqtt_8220540b (0, 0)
+1777384407: Received UNSUBSCRIBE from backend_mqtt_8220540b
+1777384407: 	teste/esp
+1777384407: Sending UNSUBACK to backend_mqtt_8220540b
+1777384407: Received SUBSCRIBE from backend_mqtt_8220540b
+1777384407: 	teste/esp (QoS 0)
+1777384407: Sending SUBACK to backend_mqtt_8220540b
+1777384428: New connection from 192.168.117.1:48230 on port 1883.
+1777384428: New client connected from 192.168.117.1:48230 as Simulador_ESP32 (p4, c1, k60).
+1777384428: No will message specified.
+1777384428: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777384437: Received DISCONNECT from Simulador_ESP32
+1777384437: Client Simulador_ESP32 [192.168.117.1:48230] disconnected.
+1777384468: Received PINGREQ from backend_mqtt_8220540b
+1777384468: Sending PINGRESP to backend_mqtt_8220540b
+1777384527: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777384528: Received PINGREQ from backend_mqtt_8220540b
+1777384528: Sending PINGRESP to backend_mqtt_8220540b
+1777384588: Received PINGREQ from backend_mqtt_8220540b
+1777384588: Sending PINGRESP to backend_mqtt_8220540b
+1777384648: Received PINGREQ from backend_mqtt_8220540b
+1777384648: Sending PINGRESP to backend_mqtt_8220540b
+1777384709: Received PINGREQ from backend_mqtt_8220540b
+1777384709: Sending PINGRESP to backend_mqtt_8220540b
+1777384769: Received PINGREQ from backend_mqtt_8220540b
+1777384769: Sending PINGRESP to backend_mqtt_8220540b
+1777384828: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777384829: Received PINGREQ from backend_mqtt_8220540b
+1777384829: Sending PINGRESP to backend_mqtt_8220540b
+1777384889: Received PINGREQ from backend_mqtt_8220540b
+1777384889: Sending PINGRESP to backend_mqtt_8220540b
+1777384949: Received PINGREQ from backend_mqtt_8220540b
+1777384949: Sending PINGRESP to backend_mqtt_8220540b
+1777385010: Received PINGREQ from backend_mqtt_8220540b
+1777385010: Sending PINGRESP to backend_mqtt_8220540b
+1777385070: Received PINGREQ from backend_mqtt_8220540b
+1777385070: Sending PINGRESP to backend_mqtt_8220540b
+1777385129: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777385130: Received PINGREQ from backend_mqtt_8220540b
+1777385130: Sending PINGRESP to backend_mqtt_8220540b
+1777385190: Received PINGREQ from backend_mqtt_8220540b
+1777385190: Sending PINGRESP to backend_mqtt_8220540b
+1777385251: Received PINGREQ from backend_mqtt_8220540b
+1777385251: Sending PINGRESP to backend_mqtt_8220540b
+1777385311: Received PINGREQ from backend_mqtt_8220540b
+1777385311: Sending PINGRESP to backend_mqtt_8220540b
+1777385371: Received PINGREQ from backend_mqtt_8220540b
+1777385371: Sending PINGRESP to backend_mqtt_8220540b
+1777385430: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777385431: Received PINGREQ from backend_mqtt_8220540b
+1777385431: Sending PINGRESP to backend_mqtt_8220540b
+1777385491: Received PINGREQ from backend_mqtt_8220540b
+1777385491: Sending PINGRESP to backend_mqtt_8220540b
+1777385552: Received PINGREQ from backend_mqtt_8220540b
+1777385552: Sending PINGRESP to backend_mqtt_8220540b
+1777385612: Received PINGREQ from backend_mqtt_8220540b
+1777385612: Sending PINGRESP to backend_mqtt_8220540b
+1777385613: Client backend_mqtt_8220540b [192.168.117.1:42852] disconnected: connection closed by client.
+1777385614: New connection from 192.168.117.1:57588 on port 1883.
+1777385614: New client connected from 192.168.117.1:57588 as backend_mqtt_559799d1 (p4, c1, k60).
+1777385614: No will message specified.
+1777385614: Sending CONNACK to backend_mqtt_559799d1 (0, 0)
+1777385614: Received UNSUBSCRIBE from backend_mqtt_559799d1
+1777385614: 	teste/esp
+1777385614: Sending UNSUBACK to backend_mqtt_559799d1
+1777385614: Received SUBSCRIBE from backend_mqtt_559799d1
+1777385614: 	teste/esp (QoS 0)
+1777385614: Sending SUBACK to backend_mqtt_559799d1
+1777385643: New connection from 192.168.117.1:63985 on port 1883.
+1777385643: New client connected from 192.168.117.1:63985 as Simulador_ESP32 (p4, c1, k60).
+1777385643: No will message specified.
+1777385643: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777385653: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385653: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385663: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777385663: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777385673: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385673: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385683: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385683: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385693: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385693: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385703: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385703: Sending PUBLISH to backend_mqtt_559799d1 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385703: Received PINGREQ from Simulador_ESP32
+1777385703: Sending PINGRESP to Simulador_ESP32
+1777385704: Client backend_mqtt_559799d1 [192.168.117.1:57588] disconnected: exceeded timeout.
+1777385713: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777385723: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385731: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777385733: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385743: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385753: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385763: Received PINGREQ from Simulador_ESP32
+1777385763: Sending PINGRESP to Simulador_ESP32
+1777385764: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1202 bytes))
+1777385774: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385784: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385794: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1200 bytes))
+1777385804: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1204 bytes))
+1777385814: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385824: Received PINGREQ from Simulador_ESP32
+1777385824: Sending PINGRESP to Simulador_ESP32
+1777385824: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385834: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385844: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1201 bytes))
+1777385854: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385864: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385874: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777385884: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385884: Received PINGREQ from Simulador_ESP32
+1777385884: Sending PINGRESP to Simulador_ESP32
+1777385894: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1208 bytes))
+1777385904: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385914: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777385924: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385934: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777385944: Received PINGREQ from Simulador_ESP32
+1777385944: Sending PINGRESP to Simulador_ESP32
+1777385944: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777385950: Received DISCONNECT from Simulador_ESP32
+1777385950: Client Simulador_ESP32 [192.168.117.1:63985] disconnected.
+1777385986: New connection from 192.168.117.1:36208 on port 1883.
+1777385986: New client connected from 192.168.117.1:36208 as backend_mqtt_2a65dc72 (p4, c1, k60).
+1777385986: No will message specified.
+1777385986: Sending CONNACK to backend_mqtt_2a65dc72 (0, 0)
+1777385986: Received UNSUBSCRIBE from backend_mqtt_2a65dc72
+1777385986: 	teste/esp
+1777385986: Sending UNSUBACK to backend_mqtt_2a65dc72
+1777385986: Received SUBSCRIBE from backend_mqtt_2a65dc72
+1777385986: 	teste/esp (QoS 0)
+1777385986: Sending SUBACK to backend_mqtt_2a65dc72
+1777385990: New connection from 192.168.117.1:22079 on port 1883.
+1777385990: New client connected from 192.168.117.1:22079 as Simulador_ESP32 (p4, c1, k60).
+1777385990: No will message specified.
+1777385990: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777386000: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1208 bytes))
+1777386000: Sending PUBLISH to backend_mqtt_2a65dc72 (d0, q0, r0, m0, 'teste/esp', ... (1208 bytes))
+1777386003: Client Simulador_ESP32 [192.168.117.1:22079] disconnected: connection closed by client.
+1777386032: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777386042: Client backend_mqtt_2a65dc72 [192.168.117.1:36208] disconnected: connection closed by client.
+1777386044: New connection from 192.168.117.1:60112 on port 1883.
+1777386044: New client connected from 192.168.117.1:60112 as backend_mqtt_e8fc5c3a (p4, c1, k60).
+1777386044: No will message specified.
+1777386044: Sending CONNACK to backend_mqtt_e8fc5c3a (0, 0)
+1777386044: Received UNSUBSCRIBE from backend_mqtt_e8fc5c3a
+1777386044: 	teste/esp
+1777386044: Sending UNSUBACK to backend_mqtt_e8fc5c3a
+1777386044: Received SUBSCRIBE from backend_mqtt_e8fc5c3a
+1777386044: 	teste/esp (QoS 0)
+1777386044: Sending SUBACK to backend_mqtt_e8fc5c3a
+1777386048: New connection from 192.168.117.1:22191 on port 1883.
+1777386048: New client connected from 192.168.117.1:22191 as Simulador_ESP32 (p4, c1, k60).
+1777386048: No will message specified.
+1777386048: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777386058: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777386058: Sending PUBLISH to backend_mqtt_e8fc5c3a (d0, q0, r0, m0, 'teste/esp', ... (1203 bytes))
+1777386061: Client Simulador_ESP32 [192.168.117.1:22191] disconnected: connection closed by client.
+1777386134: Client backend_mqtt_e8fc5c3a [192.168.117.1:60112] disconnected: connection closed by client.
+1777386135: New connection from 192.168.117.1:40638 on port 1883.
+1777386135: New client connected from 192.168.117.1:40638 as backend_mqtt_79a254d8 (p4, c1, k60).
+1777386135: No will message specified.
+1777386135: Sending CONNACK to backend_mqtt_79a254d8 (0, 0)
+1777386135: Received UNSUBSCRIBE from backend_mqtt_79a254d8
+1777386135: 	teste/esp
+1777386135: Sending UNSUBACK to backend_mqtt_79a254d8
+1777386135: Received SUBSCRIBE from backend_mqtt_79a254d8
+1777386135: 	teste/esp (QoS 0)
+1777386135: Sending SUBACK to backend_mqtt_79a254d8
+1777386136: New connection from 192.168.117.1:32320 on port 1883.
+1777386136: New client connected from 192.168.117.1:32320 as Simulador_ESP32 (p4, c1, k60).
+1777386136: No will message specified.
+1777386136: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777386147: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777386147: Sending PUBLISH to backend_mqtt_79a254d8 (d0, q0, r0, m0, 'teste/esp', ... (1206 bytes))
+1777386148: Received DISCONNECT from Simulador_ESP32
+1777386148: Client Simulador_ESP32 [192.168.117.1:32320] disconnected.
+1777386164: Client backend_mqtt_79a254d8 [192.168.117.1:40638] disconnected: connection closed by client.
+1777386165: New connection from 192.168.117.1:47274 on port 1883.
+1777386165: New client connected from 192.168.117.1:47274 as backend_mqtt_55717064 (p4, c1, k60).
+1777386165: No will message specified.
+1777386165: Sending CONNACK to backend_mqtt_55717064 (0, 0)
+1777386165: Received UNSUBSCRIBE from backend_mqtt_55717064
+1777386165: 	teste/esp
+1777386165: Sending UNSUBACK to backend_mqtt_55717064
+1777386165: Received SUBSCRIBE from backend_mqtt_55717064
+1777386165: 	teste/esp (QoS 0)
+1777386165: Sending SUBACK to backend_mqtt_55717064
+1777386170: New connection from 192.168.117.1:31778 on port 1883.
+1777386170: New client connected from 192.168.117.1:31778 as Simulador_ESP32 (p4, c1, k60).
+1777386170: No will message specified.
+1777386170: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777386180: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777386180: Sending PUBLISH to backend_mqtt_55717064 (d0, q0, r0, m0, 'teste/esp', ... (1207 bytes))
+1777386181: Received DISCONNECT from Simulador_ESP32
+1777386181: Client Simulador_ESP32 [192.168.117.1:31778] disconnected.
+1777386255: Client backend_mqtt_55717064 [192.168.117.1:47274] disconnected: exceeded timeout.
+1777386333: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777390154: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777390455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777390756: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777391057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777391358: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777391659: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777391960: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777392261: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777392562: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777392863: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777393164: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777393465: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777393766: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777394067: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777394368: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777394669: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777395676: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777395977: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777396278: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777396579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777396880: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777397181: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777397482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777397783: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777398084: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777398385: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777398686: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777398987: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777399288: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777399589: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777399890: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777400191: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777400492: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777400793: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777401094: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777401395: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777401696: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777401997: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777402298: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777402599: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777402900: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777403201: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777403502: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777403803: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777404104: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777404405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777404706: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777405007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777405308: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777405609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777405910: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777406211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777461522: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777461823: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777462155: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777462456: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777463375: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777463676: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777463977: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777464278: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777464579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777464880: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777465181: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777465482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777465783: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777466084: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777466385: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777476532: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777476833: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777477134: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777478047: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777478348: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777478649: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777478950: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777479251: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777479552: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777479853: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777480154: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777480455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777480800: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777483314: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777483615: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777483916: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777484361: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777484864: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777485165: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777485466: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777485767: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777486068: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777486369: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777486405: mosquitto version 2.1.2 terminating
+1777486405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777583694: mosquitto version 2.1.2 starting
+1777583694: Config loaded from /mosquitto/config/mosquitto.conf.
+1777583694: Bridge support available.
+1777583694: Persistence support available.
+1777583694: TLS support available.
+1777583694: TLS-PSK support available.
+1777583694: Websockets support available.
+1777583694: Opening ipv4 listen socket on port 1883.
+1777583694: Opening ipv6 listen socket on port 1883.
+1777583694: Opening ipv4 listen socket on port 9001.
+1777583694: Opening ipv6 listen socket on port 9001.
+1777583694: mosquitto version 2.1.2 running
+1777583697: mosquitto version 2.1.2 terminating
+1777583697: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777920127: mosquitto version 2.1.2 starting
+1777920127: Config loaded from /mosquitto/config/mosquitto.conf.
+1777920127: Bridge support available.
+1777920127: Persistence support available.
+1777920127: TLS support available.
+1777920127: TLS-PSK support available.
+1777920127: Websockets support available.
+1777920127: Opening ipv4 listen socket on port 1883.
+1777920127: Opening ipv6 listen socket on port 1883.
+1777920127: Opening ipv4 listen socket on port 9001.
+1777920127: Opening ipv6 listen socket on port 9001.
+1777920127: mosquitto version 2.1.2 running
+1777920174: New connection from 192.168.117.1:46460 on port 1883.
+1777920174: New client connected from 192.168.117.1:46460 as backend_mqtt_dab05eb1 (p4, c1, k60).
+1777920174: No will message specified.
+1777920174: Sending CONNACK to backend_mqtt_dab05eb1 (0, 0)
+1777920174: Received UNSUBSCRIBE from backend_mqtt_dab05eb1
+1777920174: 	teste/esp
+1777920174: Sending UNSUBACK to backend_mqtt_dab05eb1
+1777920174: Received SUBSCRIBE from backend_mqtt_dab05eb1
+1777920174: 	teste/esp (QoS 0)
+1777920174: Sending SUBACK to backend_mqtt_dab05eb1
+1777920174: New connection from 192.168.117.1:46466 on port 1883.
+1777920174: New client connected from 192.168.117.1:46466 as backend_mqtt_5c95918a (p4, c1, k60).
+1777920174: No will message specified.
+1777920174: Sending CONNACK to backend_mqtt_5c95918a (0, 0)
+1777920174: Received UNSUBSCRIBE from backend_mqtt_5c95918a
+1777920174: 	teste/esp
+1777920174: Sending UNSUBACK to backend_mqtt_5c95918a
+1777920174: Received SUBSCRIBE from backend_mqtt_5c95918a
+1777920174: 	teste/esp (QoS 0)
+1777920174: Sending SUBACK to backend_mqtt_5c95918a
+1777920234: Received PINGREQ from backend_mqtt_dab05eb1
+1777920234: Sending PINGRESP to backend_mqtt_dab05eb1
+1777920234: Received PINGREQ from backend_mqtt_5c95918a
+1777920234: Sending PINGRESP to backend_mqtt_5c95918a
+1777920294: Received PINGREQ from backend_mqtt_dab05eb1
+1777920294: Sending PINGRESP to backend_mqtt_dab05eb1
+1777920294: Received PINGREQ from backend_mqtt_5c95918a
+1777920294: Sending PINGRESP to backend_mqtt_5c95918a
+1777920296: New connection from 192.168.117.1:49311 on port 1883.
+1777920296: New client connected from 192.168.117.1:49311 as ESPClient-edf (p4, c1, k15).
+1777920296: No will message specified.
+1777920296: Sending CONNACK to ESPClient-edf (0, 0)
+1777920311: Received PINGREQ from ESPClient-edf
+1777920311: Sending PINGRESP to ESPClient-edf
+1777920317: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920317: Sending PUBLISH to backend_mqtt_dab05eb1 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920317: Sending PUBLISH to backend_mqtt_5c95918a (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920326: Received PINGREQ from ESPClient-edf
+1777920326: Sending PINGRESP to ESPClient-edf
+1777920341: Received PINGREQ from ESPClient-edf
+1777920341: Sending PINGRESP to ESPClient-edf
+1777920342: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920342: Sending PUBLISH to backend_mqtt_dab05eb1 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920342: Sending PUBLISH to backend_mqtt_5c95918a (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920351: Client backend_mqtt_5c95918a [192.168.117.1:46466] disconnected: connection closed by client.
+1777920351: Client backend_mqtt_dab05eb1 [192.168.117.1:46460] disconnected: connection closed by client.
+1777920356: Received PINGREQ from ESPClient-edf
+1777920356: Sending PINGRESP to ESPClient-edf
+1777920366: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920369: New connection from 192.168.117.1:36520 on port 1883.
+1777920369: New client connected from 192.168.117.1:36520 as Simulador_ESP32 (p4, c1, k60).
+1777920369: No will message specified.
+1777920369: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777920372: Received PINGREQ from ESPClient-edf
+1777920372: Sending PINGRESP to ESPClient-edf
+1777920372: New connection from 192.168.117.1:44742 on port 1883.
+1777920372: New client connected from 192.168.117.1:44742 as backend_mqtt_7a25a5de (p4, c1, k60).
+1777920372: No will message specified.
+1777920372: Sending CONNACK to backend_mqtt_7a25a5de (0, 0)
+1777920372: Received UNSUBSCRIBE from backend_mqtt_7a25a5de
+1777920372: 	teste/esp
+1777920372: Sending UNSUBACK to backend_mqtt_7a25a5de
+1777920372: Received SUBSCRIBE from backend_mqtt_7a25a5de
+1777920372: 	teste/esp (QoS 0)
+1777920372: Sending SUBACK to backend_mqtt_7a25a5de
+1777920372: New connection from 192.168.117.1:44758 on port 1883.
+1777920372: New client connected from 192.168.117.1:44758 as backend_mqtt_10a8bb89 (p4, c1, k60).
+1777920372: No will message specified.
+1777920372: Sending CONNACK to backend_mqtt_10a8bb89 (0, 0)
+1777920372: Received UNSUBSCRIBE from backend_mqtt_10a8bb89
+1777920372: 	teste/esp
+1777920372: Sending UNSUBACK to backend_mqtt_10a8bb89
+1777920372: Received SUBSCRIBE from backend_mqtt_10a8bb89
+1777920372: 	teste/esp (QoS 0)
+1777920372: Sending SUBACK to backend_mqtt_10a8bb89
+1777920379: Received PUBLISH from Simulador_ESP32 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777920379: Sending PUBLISH to backend_mqtt_7a25a5de (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777920379: Sending PUBLISH to backend_mqtt_10a8bb89 (d0, q0, r0, m0, 'teste/esp', ... (1205 bytes))
+1777920381: Client backend_mqtt_10a8bb89 [192.168.117.1:44758] disconnected: connection closed by client.
+1777920381: Client backend_mqtt_7a25a5de [192.168.117.1:44742] disconnected: connection closed by client.
+1777920384: Received DISCONNECT from Simulador_ESP32
+1777920384: Client Simulador_ESP32 [192.168.117.1:36520] disconnected.
+1777920387: Received PINGREQ from ESPClient-edf
+1777920387: Sending PINGRESP to ESPClient-edf
+1777920391: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920402: Received PINGREQ from ESPClient-edf
+1777920402: Sending PINGRESP to ESPClient-edf
+1777920415: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920417: Received PINGREQ from ESPClient-edf
+1777920417: Sending PINGRESP to ESPClient-edf
+1777920426: New connection from 192.168.117.1:53304 on port 1883.
+1777920426: New client connected from 192.168.117.1:53304 as backend_mqtt_551c0d96 (p4, c1, k60).
+1777920426: No will message specified.
+1777920426: Sending CONNACK to backend_mqtt_551c0d96 (0, 0)
+1777920426: Received UNSUBSCRIBE from backend_mqtt_551c0d96
+1777920426: 	teste/esp
+1777920426: Sending UNSUBACK to backend_mqtt_551c0d96
+1777920426: Received SUBSCRIBE from backend_mqtt_551c0d96
+1777920426: 	teste/esp (QoS 0)
+1777920426: Sending SUBACK to backend_mqtt_551c0d96
+1777920426: New connection from 192.168.117.1:53314 on port 1883.
+1777920426: New client connected from 192.168.117.1:53314 as backend_mqtt_70ccf4c5 (p4, c1, k60).
+1777920426: No will message specified.
+1777920426: Sending CONNACK to backend_mqtt_70ccf4c5 (0, 0)
+1777920426: Received UNSUBSCRIBE from backend_mqtt_70ccf4c5
+1777920426: 	teste/esp
+1777920426: Sending UNSUBACK to backend_mqtt_70ccf4c5
+1777920426: Received SUBSCRIBE from backend_mqtt_70ccf4c5
+1777920426: 	teste/esp (QoS 0)
+1777920426: Sending SUBACK to backend_mqtt_70ccf4c5
+1777920428: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777920429: New connection from 192.168.117.1:50426 on port 1883.
+1777920429: New client connected from 192.168.117.1:50426 as Simulador_ESP32 (p4, c1, k60).
+1777920429: No will message specified.
+1777920429: Sending CONNACK to Simulador_ESP32 (0, 0)
+1777920430: Received DISCONNECT from Simulador_ESP32
+1777920430: Client Simulador_ESP32 [192.168.117.1:50426] disconnected.
+1777920432: Received PINGREQ from ESPClient-edf
+1777920432: Sending PINGRESP to ESPClient-edf
+1777920440: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920440: Sending PUBLISH to backend_mqtt_551c0d96 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920440: Sending PUBLISH to backend_mqtt_70ccf4c5 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920447: Received PINGREQ from ESPClient-edf
+1777920447: Sending PINGRESP to ESPClient-edf
+1777920454: Client backend_mqtt_70ccf4c5 [192.168.117.1:53314] disconnected: connection closed by client.
+1777920454: Client backend_mqtt_551c0d96 [192.168.117.1:53304] disconnected: connection closed by client.
+1777920462: Received PINGREQ from ESPClient-edf
+1777920462: Sending PINGRESP to ESPClient-edf
+1777920464: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920477: Received PINGREQ from ESPClient-edf
+1777920477: Sending PINGRESP to ESPClient-edf
+1777920488: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920493: Received PINGREQ from ESPClient-edf
+1777920493: Sending PINGRESP to ESPClient-edf
+1777920508: Received PINGREQ from ESPClient-edf
+1777920508: Sending PINGRESP to ESPClient-edf
+1777920513: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920523: Received PINGREQ from ESPClient-edf
+1777920523: Sending PINGRESP to ESPClient-edf
+1777920537: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920538: Received PINGREQ from ESPClient-edf
+1777920538: Sending PINGRESP to ESPClient-edf
+1777920553: Received PINGREQ from ESPClient-edf
+1777920553: Sending PINGRESP to ESPClient-edf
+1777920563: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920568: Received PINGREQ from ESPClient-edf
+1777920568: Sending PINGRESP to ESPClient-edf
+1777920584: Received PINGREQ from ESPClient-edf
+1777920584: Sending PINGRESP to ESPClient-edf
+1777920586: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920599: Received PINGREQ from ESPClient-edf
+1777920599: Sending PINGRESP to ESPClient-edf
+1777920610: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920614: Received PINGREQ from ESPClient-edf
+1777920614: Sending PINGRESP to ESPClient-edf
+1777920629: Received PINGREQ from ESPClient-edf
+1777920629: Sending PINGRESP to ESPClient-edf
+1777920635: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920644: Received PINGREQ from ESPClient-edf
+1777920644: Sending PINGRESP to ESPClient-edf
+1777920659: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920660: Received PINGREQ from ESPClient-edf
+1777920660: Sending PINGRESP to ESPClient-edf
+1777920675: Received PINGREQ from ESPClient-edf
+1777920675: Sending PINGRESP to ESPClient-edf
+1777920683: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920690: Received PINGREQ from ESPClient-edf
+1777920690: Sending PINGRESP to ESPClient-edf
+1777920705: Received PINGREQ from ESPClient-edf
+1777920705: Sending PINGRESP to ESPClient-edf
+1777920708: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920721: Received PINGREQ from ESPClient-edf
+1777920721: Sending PINGRESP to ESPClient-edf
+1777920729: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777920732: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920736: Received PINGREQ from ESPClient-edf
+1777920736: Sending PINGRESP to ESPClient-edf
+1777920751: Received PINGREQ from ESPClient-edf
+1777920751: Sending PINGRESP to ESPClient-edf
+1777920756: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920766: Received PINGREQ from ESPClient-edf
+1777920766: Sending PINGRESP to ESPClient-edf
+1777920781: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920782: Received PINGREQ from ESPClient-edf
+1777920782: Sending PINGRESP to ESPClient-edf
+1777920797: Received PINGREQ from ESPClient-edf
+1777920797: Sending PINGRESP to ESPClient-edf
+1777920805: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920812: Received PINGREQ from ESPClient-edf
+1777920812: Sending PINGRESP to ESPClient-edf
+1777920827: Received PINGREQ from ESPClient-edf
+1777920827: Sending PINGRESP to ESPClient-edf
+1777920830: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920842: Received PINGREQ from ESPClient-edf
+1777920842: Sending PINGRESP to ESPClient-edf
+1777920854: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920858: Received PINGREQ from ESPClient-edf
+1777920858: Sending PINGRESP to ESPClient-edf
+1777920873: Received PINGREQ from ESPClient-edf
+1777920873: Sending PINGRESP to ESPClient-edf
+1777920878: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920888: Received PINGREQ from ESPClient-edf
+1777920888: Sending PINGRESP to ESPClient-edf
+1777920903: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920903: Received PINGREQ from ESPClient-edf
+1777920903: Sending PINGRESP to ESPClient-edf
+1777920918: Received PINGREQ from ESPClient-edf
+1777920918: Sending PINGRESP to ESPClient-edf
+1777920927: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920934: Received PINGREQ from ESPClient-edf
+1777920934: Sending PINGRESP to ESPClient-edf
+1777920949: Received PINGREQ from ESPClient-edf
+1777920949: Sending PINGRESP to ESPClient-edf
+1777920952: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920964: Received PINGREQ from ESPClient-edf
+1777920964: Sending PINGRESP to ESPClient-edf
+1777920976: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777920979: Received PINGREQ from ESPClient-edf
+1777920979: Sending PINGRESP to ESPClient-edf
+1777920994: Received PINGREQ from ESPClient-edf
+1777920994: Sending PINGRESP to ESPClient-edf
+1777921000: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921010: Received PINGREQ from ESPClient-edf
+1777921010: Sending PINGRESP to ESPClient-edf
+1777921025: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921025: Received PINGREQ from ESPClient-edf
+1777921025: Sending PINGRESP to ESPClient-edf
+1777921030: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777921040: Received PINGREQ from ESPClient-edf
+1777921040: Sending PINGRESP to ESPClient-edf
+1777921049: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921055: Received PINGREQ from ESPClient-edf
+1777921055: Sending PINGRESP to ESPClient-edf
+1777921070: Received PINGREQ from ESPClient-edf
+1777921070: Sending PINGRESP to ESPClient-edf
+1777921074: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921086: Received PINGREQ from ESPClient-edf
+1777921086: Sending PINGRESP to ESPClient-edf
+1777921098: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921101: Received PINGREQ from ESPClient-edf
+1777921101: Sending PINGRESP to ESPClient-edf
+1777921116: Received PINGREQ from ESPClient-edf
+1777921116: Sending PINGRESP to ESPClient-edf
+1777921122: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921131: Received PINGREQ from ESPClient-edf
+1777921131: Sending PINGRESP to ESPClient-edf
+1777921146: Received PINGREQ from ESPClient-edf
+1777921146: Sending PINGRESP to ESPClient-edf
+1777921147: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921161: Received PINGREQ from ESPClient-edf
+1777921161: Sending PINGRESP to ESPClient-edf
+1777921173: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921177: Received PINGREQ from ESPClient-edf
+1777921177: Sending PINGRESP to ESPClient-edf
+1777921191: Received PINGREQ from ESPClient-edf
+1777921191: Sending PINGRESP to ESPClient-edf
+1777921195: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921207: Received PINGREQ from ESPClient-edf
+1777921207: Sending PINGRESP to ESPClient-edf
+1777921220: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921222: Received PINGREQ from ESPClient-edf
+1777921222: Sending PINGRESP to ESPClient-edf
+1777921237: Received PINGREQ from ESPClient-edf
+1777921237: Sending PINGRESP to ESPClient-edf
+1777921244: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921253: Received PINGREQ from ESPClient-edf
+1777921253: Sending PINGRESP to ESPClient-edf
+1777921267: Received PINGREQ from ESPClient-edf
+1777921267: Sending PINGRESP to ESPClient-edf
+1777921268: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921283: Received PINGREQ from ESPClient-edf
+1777921283: Sending PINGRESP to ESPClient-edf
+1777921293: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921299: Received PINGREQ from ESPClient-edf
+1777921299: Sending PINGRESP to ESPClient-edf
+1777921313: Received PINGREQ from ESPClient-edf
+1777921313: Sending PINGRESP to ESPClient-edf
+1777921317: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921328: Received PINGREQ from ESPClient-edf
+1777921328: Sending PINGRESP to ESPClient-edf
+1777921331: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777921342: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921343: Received PINGREQ from ESPClient-edf
+1777921343: Sending PINGRESP to ESPClient-edf
+1777921359: Received PINGREQ from ESPClient-edf
+1777921359: Sending PINGRESP to ESPClient-edf
+1777921366: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921374: Received PINGREQ from ESPClient-edf
+1777921374: Sending PINGRESP to ESPClient-edf
+1777921389: Received PINGREQ from ESPClient-edf
+1777921389: Sending PINGRESP to ESPClient-edf
+1777921390: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921404: Received PINGREQ from ESPClient-edf
+1777921404: Sending PINGRESP to ESPClient-edf
+1777921415: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921419: Received PINGREQ from ESPClient-edf
+1777921419: Sending PINGRESP to ESPClient-edf
+1777921434: Received PINGREQ from ESPClient-edf
+1777921434: Sending PINGRESP to ESPClient-edf
+1777921439: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921450: Received PINGREQ from ESPClient-edf
+1777921450: Sending PINGRESP to ESPClient-edf
+1777921464: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921465: Received PINGREQ from ESPClient-edf
+1777921465: Sending PINGRESP to ESPClient-edf
+1777921482: Received PINGREQ from ESPClient-edf
+1777921482: Sending PINGRESP to ESPClient-edf
+1777921488: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921498: Received PINGREQ from ESPClient-edf
+1777921498: Sending PINGRESP to ESPClient-edf
+1777921512: Received PINGREQ from ESPClient-edf
+1777921512: Sending PINGRESP to ESPClient-edf
+1777921512: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921528: Received PINGREQ from ESPClient-edf
+1777921528: Sending PINGRESP to ESPClient-edf
+1777921536: Received PUBLISH from ESPClient-edf (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1777921543: Received PINGREQ from ESPClient-edf
+1777921543: Sending PINGRESP to ESPClient-edf
+1777921566: Client ESPClient-edf [192.168.117.1:49311] disconnected: exceeded timeout.
+1777921632: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777921933: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777922234: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777922535: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777922836: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777923137: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777923438: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777923739: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777924040: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777924341: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777924642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777924943: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777925244: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777938521: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777938821: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777939122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777939176: mosquitto version 2.1.2 terminating
+1777939176: Saving in-memory database to /mosquitto/data//mosquitto.db.

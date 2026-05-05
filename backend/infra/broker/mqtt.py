@@ -5,6 +5,7 @@ from collections import deque
 from datetime import datetime
 from infra.database.postgres import get_engine, text
 import hashlib
+import struct
 
 breaker_id = "1"
 
