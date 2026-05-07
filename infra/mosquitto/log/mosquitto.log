@@ -2404,3 +2404,917 @@
 1777939122: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1777939176: mosquitto version 2.1.2 terminating
 1777939176: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778160514: mosquitto version 2.1.2 starting
+1778160514: Config loaded from /mosquitto/config/mosquitto.conf.
+1778160514: Bridge support available.
+1778160514: Persistence support available.
+1778160514: TLS support available.
+1778160514: TLS-PSK support available.
+1778160514: Websockets support available.
+1778160514: Opening ipv4 listen socket on port 1883.
+1778160514: Opening ipv6 listen socket on port 1883.
+1778160514: Opening ipv4 listen socket on port 9001.
+1778160514: Opening ipv6 listen socket on port 9001.
+1778160514: mosquitto version 2.1.2 running
+1778160516: New connection from 192.168.117.1:49880 on port 1883.
+1778160516: New client connected from 192.168.117.1:49880 as ESPClient-a650 (p4, c1, k15).
+1778160516: No will message specified.
+1778160516: Sending CONNACK to ESPClient-a650 (0, 0)
+1778160516: Received PUBLISH from ESPClient-a650 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160516: Received PUBLISH from ESPClient-a650 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160530: New connection from 192.168.117.1:58128 on port 1883.
+1778160530: New client connected from 192.168.117.1:58128 as backend_mqtt_1a7a449a (p4, c1, k60).
+1778160530: No will message specified.
+1778160530: Sending CONNACK to backend_mqtt_1a7a449a (0, 0)
+1778160530: Received UNSUBSCRIBE from backend_mqtt_1a7a449a
+1778160530: 	teste/esp
+1778160530: Sending UNSUBACK to backend_mqtt_1a7a449a
+1778160530: Received SUBSCRIBE from backend_mqtt_1a7a449a
+1778160530: 	teste/esp (QoS 0)
+1778160530: Sending SUBACK to backend_mqtt_1a7a449a
+1778160531: Received PINGREQ from ESPClient-a650
+1778160531: Sending PINGRESP to ESPClient-a650
+1778160534: Received PUBLISH from ESPClient-a650 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160534: Sending PUBLISH to backend_mqtt_1a7a449a (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160543: Client backend_mqtt_1a7a449a [192.168.117.1:58128] disconnected: connection closed by client.
+1778160544: New connection from 192.168.117.1:40720 on port 1883.
+1778160544: New client connected from 192.168.117.1:40720 as backend_mqtt_d2c36955 (p4, c1, k60).
+1778160544: No will message specified.
+1778160544: Sending CONNACK to backend_mqtt_d2c36955 (0, 0)
+1778160544: Received UNSUBSCRIBE from backend_mqtt_d2c36955
+1778160544: 	teste/esp
+1778160544: Sending UNSUBACK to backend_mqtt_d2c36955
+1778160544: Received SUBSCRIBE from backend_mqtt_d2c36955
+1778160544: 	teste/esp (QoS 0)
+1778160544: Sending SUBACK to backend_mqtt_d2c36955
+1778160557: Client ESPClient-a650 [192.168.117.1:49880] disconnected: exceeded timeout.
+1778160564: New connection from 192.168.117.1:16557 on port 1883.
+1778160564: New client connected from 192.168.117.1:16557 as ESPClient-7a87 (p4, c1, k15).
+1778160564: No will message specified.
+1778160564: Sending CONNACK to ESPClient-7a87 (0, 0)
+1778160579: Received PINGREQ from ESPClient-7a87
+1778160579: Sending PINGRESP to ESPClient-7a87
+1778160582: Received PUBLISH from ESPClient-7a87 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160582: Sending PUBLISH to backend_mqtt_d2c36955 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160594: Received PINGREQ from ESPClient-7a87
+1778160594: Sending PINGRESP to ESPClient-7a87
+1778160606: Received PUBLISH from ESPClient-7a87 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160606: Sending PUBLISH to backend_mqtt_d2c36955 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160617: Client backend_mqtt_d2c36955 [192.168.117.1:40720] disconnected: connection closed by client.
+1778160629: Client ESPClient-7a87 [192.168.117.1:16557] disconnected: exceeded timeout.
+1778160634: New connection from 192.168.117.1:49582 on port 1883.
+1778160634: New client connected from 192.168.117.1:49582 as ESPClient-1ecc (p4, c1, k15).
+1778160634: No will message specified.
+1778160634: Sending CONNACK to ESPClient-1ecc (0, 0)
+1778160649: Received PINGREQ from ESPClient-1ecc
+1778160649: Sending PINGRESP to ESPClient-1ecc
+1778160655: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160665: Received PINGREQ from ESPClient-1ecc
+1778160665: Sending PINGRESP to ESPClient-1ecc
+1778160679: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160680: Received PINGREQ from ESPClient-1ecc
+1778160680: Sending PINGRESP to ESPClient-1ecc
+1778160695: Received PINGREQ from ESPClient-1ecc
+1778160695: Sending PINGRESP to ESPClient-1ecc
+1778160703: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160710: Received PINGREQ from ESPClient-1ecc
+1778160710: Sending PINGRESP to ESPClient-1ecc
+1778160725: Received PINGREQ from ESPClient-1ecc
+1778160725: Sending PINGRESP to ESPClient-1ecc
+1778160727: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160740: Received PINGREQ from ESPClient-1ecc
+1778160740: Sending PINGRESP to ESPClient-1ecc
+1778160743: New connection from 192.168.117.1:41424 on port 1883.
+1778160743: New client connected from 192.168.117.1:41424 as backend_mqtt_622b4169 (p4, c1, k60).
+1778160743: No will message specified.
+1778160743: Sending CONNACK to backend_mqtt_622b4169 (0, 0)
+1778160743: Received UNSUBSCRIBE from backend_mqtt_622b4169
+1778160743: 	teste/esp
+1778160743: Sending UNSUBACK to backend_mqtt_622b4169
+1778160743: Received SUBSCRIBE from backend_mqtt_622b4169
+1778160743: 	teste/esp (QoS 0)
+1778160743: Sending SUBACK to backend_mqtt_622b4169
+1778160751: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160751: Sending PUBLISH to backend_mqtt_622b4169 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160755: Received PINGREQ from ESPClient-1ecc
+1778160755: Sending PINGRESP to ESPClient-1ecc
+1778160770: Received PINGREQ from ESPClient-1ecc
+1778160770: Sending PINGRESP to ESPClient-1ecc
+1778160776: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160776: Sending PUBLISH to backend_mqtt_622b4169 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160785: Received PINGREQ from ESPClient-1ecc
+1778160785: Sending PINGRESP to ESPClient-1ecc
+1778160800: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160800: Sending PUBLISH to backend_mqtt_622b4169 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160800: Received PINGREQ from ESPClient-1ecc
+1778160800: Sending PINGRESP to ESPClient-1ecc
+1778160804: Received PINGREQ from backend_mqtt_622b4169
+1778160804: Sending PINGRESP to backend_mqtt_622b4169
+1778160815: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778160815: Received PINGREQ from ESPClient-1ecc
+1778160815: Sending PINGRESP to ESPClient-1ecc
+1778160824: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160824: Sending PUBLISH to backend_mqtt_622b4169 (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160830: Received PINGREQ from ESPClient-1ecc
+1778160830: Sending PINGRESP to ESPClient-1ecc
+1778160845: Received PINGREQ from ESPClient-1ecc
+1778160845: Sending PINGRESP to ESPClient-1ecc
+1778160848: Client backend_mqtt_622b4169 [192.168.117.1:41424] disconnected: connection closed by client.
+1778160848: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160849: New connection from 192.168.117.1:60308 on port 1883.
+1778160849: New client connected from 192.168.117.1:60308 as backend_mqtt_b3a9b61d (p4, c1, k60).
+1778160849: No will message specified.
+1778160849: Sending CONNACK to backend_mqtt_b3a9b61d (0, 0)
+1778160849: Received UNSUBSCRIBE from backend_mqtt_b3a9b61d
+1778160849: 	teste/esp
+1778160849: Sending UNSUBACK to backend_mqtt_b3a9b61d
+1778160849: Received SUBSCRIBE from backend_mqtt_b3a9b61d
+1778160849: 	teste/esp (QoS 0)
+1778160849: Sending SUBACK to backend_mqtt_b3a9b61d
+1778160861: Received PINGREQ from ESPClient-1ecc
+1778160861: Sending PINGRESP to ESPClient-1ecc
+1778160872: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160872: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160876: Received PINGREQ from ESPClient-1ecc
+1778160876: Sending PINGRESP to ESPClient-1ecc
+1778160891: Received PINGREQ from ESPClient-1ecc
+1778160891: Sending PINGRESP to ESPClient-1ecc
+1778160897: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160897: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160906: Received PINGREQ from ESPClient-1ecc
+1778160906: Sending PINGRESP to ESPClient-1ecc
+1778160910: Received PINGREQ from backend_mqtt_b3a9b61d
+1778160910: Sending PINGRESP to backend_mqtt_b3a9b61d
+1778160921: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160921: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160921: Received PINGREQ from ESPClient-1ecc
+1778160921: Sending PINGRESP to ESPClient-1ecc
+1778160937: Received PINGREQ from ESPClient-1ecc
+1778160937: Sending PINGRESP to ESPClient-1ecc
+1778160945: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160945: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160952: Received PINGREQ from ESPClient-1ecc
+1778160952: Sending PINGRESP to ESPClient-1ecc
+1778160967: Received PINGREQ from ESPClient-1ecc
+1778160967: Sending PINGRESP to ESPClient-1ecc
+1778160969: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160969: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160970: Received PINGREQ from backend_mqtt_b3a9b61d
+1778160970: Sending PINGRESP to backend_mqtt_b3a9b61d
+1778160982: Received PINGREQ from ESPClient-1ecc
+1778160982: Sending PINGRESP to ESPClient-1ecc
+1778160993: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160993: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778160997: Received PINGREQ from ESPClient-1ecc
+1778160997: Sending PINGRESP to ESPClient-1ecc
+1778161012: Received PINGREQ from ESPClient-1ecc
+1778161012: Sending PINGRESP to ESPClient-1ecc
+1778161017: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161017: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161027: Received PINGREQ from ESPClient-1ecc
+1778161027: Sending PINGRESP to ESPClient-1ecc
+1778161031: Received PINGREQ from backend_mqtt_b3a9b61d
+1778161031: Sending PINGRESP to backend_mqtt_b3a9b61d
+1778161042: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161042: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161044: Received PINGREQ from ESPClient-1ecc
+1778161044: Sending PINGRESP to ESPClient-1ecc
+1778161058: Received PINGREQ from ESPClient-1ecc
+1778161058: Sending PINGRESP to ESPClient-1ecc
+1778161066: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161066: Sending PUBLISH to backend_mqtt_b3a9b61d (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161074: Received PINGREQ from ESPClient-1ecc
+1778161074: Sending PINGRESP to ESPClient-1ecc
+1778161078: Client backend_mqtt_b3a9b61d [192.168.117.1:60308] disconnected: connection closed by client.
+1778161079: New connection from 192.168.117.1:57594 on port 1883.
+1778161079: New client connected from 192.168.117.1:57594 as backend_mqtt_f44c77dd (p4, c1, k60).
+1778161079: No will message specified.
+1778161079: Sending CONNACK to backend_mqtt_f44c77dd (0, 0)
+1778161079: Received UNSUBSCRIBE from backend_mqtt_f44c77dd
+1778161079: 	teste/esp
+1778161079: Sending UNSUBACK to backend_mqtt_f44c77dd
+1778161079: Received SUBSCRIBE from backend_mqtt_f44c77dd
+1778161079: 	teste/esp (QoS 0)
+1778161079: Sending SUBACK to backend_mqtt_f44c77dd
+1778161089: Received PINGREQ from ESPClient-1ecc
+1778161089: Sending PINGRESP to ESPClient-1ecc
+1778161090: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161090: Sending PUBLISH to backend_mqtt_f44c77dd (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161104: Received PINGREQ from ESPClient-1ecc
+1778161104: Sending PINGRESP to ESPClient-1ecc
+1778161114: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161114: Sending PUBLISH to backend_mqtt_f44c77dd (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161116: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778161117: Client backend_mqtt_f44c77dd [192.168.117.1:57594] disconnected: connection closed by client.
+1778161118: New connection from 192.168.117.1:33940 on port 1883.
+1778161118: New client connected from 192.168.117.1:33940 as backend_mqtt_7dee072f (p4, c1, k60).
+1778161118: No will message specified.
+1778161118: Sending CONNACK to backend_mqtt_7dee072f (0, 0)
+1778161118: Received UNSUBSCRIBE from backend_mqtt_7dee072f
+1778161118: 	teste/esp
+1778161118: Sending UNSUBACK to backend_mqtt_7dee072f
+1778161118: Received SUBSCRIBE from backend_mqtt_7dee072f
+1778161118: 	teste/esp (QoS 0)
+1778161118: Sending SUBACK to backend_mqtt_7dee072f
+1778161119: Received PINGREQ from ESPClient-1ecc
+1778161119: Sending PINGRESP to ESPClient-1ecc
+1778161134: Received PINGREQ from ESPClient-1ecc
+1778161134: Sending PINGRESP to ESPClient-1ecc
+1778161138: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161138: Sending PUBLISH to backend_mqtt_7dee072f (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161149: Received PINGREQ from ESPClient-1ecc
+1778161149: Sending PINGRESP to ESPClient-1ecc
+1778161159: Client backend_mqtt_7dee072f [192.168.117.1:33940] disconnected: connection closed by client.
+1778161160: New connection from 192.168.117.1:46622 on port 1883.
+1778161160: New client connected from 192.168.117.1:46622 as backend_mqtt_0dd2cc4e (p4, c1, k60).
+1778161160: No will message specified.
+1778161160: Sending CONNACK to backend_mqtt_0dd2cc4e (0, 0)
+1778161160: Received UNSUBSCRIBE from backend_mqtt_0dd2cc4e
+1778161160: 	teste/esp
+1778161160: Sending UNSUBACK to backend_mqtt_0dd2cc4e
+1778161160: Received SUBSCRIBE from backend_mqtt_0dd2cc4e
+1778161160: 	teste/esp (QoS 0)
+1778161160: Sending SUBACK to backend_mqtt_0dd2cc4e
+1778161163: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161163: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161165: Received PINGREQ from ESPClient-1ecc
+1778161165: Sending PINGRESP to ESPClient-1ecc
+1778161179: Received PINGREQ from ESPClient-1ecc
+1778161179: Sending PINGRESP to ESPClient-1ecc
+1778161187: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161187: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161194: Received PINGREQ from ESPClient-1ecc
+1778161194: Sending PINGRESP to ESPClient-1ecc
+1778161209: Received PINGREQ from ESPClient-1ecc
+1778161209: Sending PINGRESP to ESPClient-1ecc
+1778161211: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161211: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161220: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161220: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161225: Received PINGREQ from ESPClient-1ecc
+1778161225: Sending PINGRESP to ESPClient-1ecc
+1778161235: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161235: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161240: Received PINGREQ from ESPClient-1ecc
+1778161240: Sending PINGRESP to ESPClient-1ecc
+1778161255: Received PINGREQ from ESPClient-1ecc
+1778161255: Sending PINGRESP to ESPClient-1ecc
+1778161260: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161260: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161270: Received PINGREQ from ESPClient-1ecc
+1778161270: Sending PINGRESP to ESPClient-1ecc
+1778161281: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161281: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161284: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161284: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161285: Received PINGREQ from ESPClient-1ecc
+1778161285: Sending PINGRESP to ESPClient-1ecc
+1778161300: Received PINGREQ from ESPClient-1ecc
+1778161300: Sending PINGRESP to ESPClient-1ecc
+1778161308: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161308: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161315: Received PINGREQ from ESPClient-1ecc
+1778161315: Sending PINGRESP to ESPClient-1ecc
+1778161330: Received PINGREQ from ESPClient-1ecc
+1778161330: Sending PINGRESP to ESPClient-1ecc
+1778161332: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161332: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161341: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161341: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161346: Received PINGREQ from ESPClient-1ecc
+1778161346: Sending PINGRESP to ESPClient-1ecc
+1778161356: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161356: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161361: Received PINGREQ from ESPClient-1ecc
+1778161361: Sending PINGRESP to ESPClient-1ecc
+1778161376: Received PINGREQ from ESPClient-1ecc
+1778161376: Sending PINGRESP to ESPClient-1ecc
+1778161380: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161380: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161391: Received PINGREQ from ESPClient-1ecc
+1778161391: Sending PINGRESP to ESPClient-1ecc
+1778161401: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161401: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161405: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161405: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161406: Received PINGREQ from ESPClient-1ecc
+1778161406: Sending PINGRESP to ESPClient-1ecc
+1778161417: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778161422: Received PINGREQ from ESPClient-1ecc
+1778161422: Sending PINGRESP to ESPClient-1ecc
+1778161429: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161429: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161437: Received PINGREQ from ESPClient-1ecc
+1778161437: Sending PINGRESP to ESPClient-1ecc
+1778161452: Received PINGREQ from ESPClient-1ecc
+1778161452: Sending PINGRESP to ESPClient-1ecc
+1778161453: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161453: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161462: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161462: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161467: Received PINGREQ from ESPClient-1ecc
+1778161467: Sending PINGRESP to ESPClient-1ecc
+1778161477: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161477: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161482: Received PINGREQ from ESPClient-1ecc
+1778161482: Sending PINGRESP to ESPClient-1ecc
+1778161497: Received PINGREQ from ESPClient-1ecc
+1778161497: Sending PINGRESP to ESPClient-1ecc
+1778161501: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161501: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161513: Received PINGREQ from ESPClient-1ecc
+1778161513: Sending PINGRESP to ESPClient-1ecc
+1778161522: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161522: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161525: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161525: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161528: Received PINGREQ from ESPClient-1ecc
+1778161528: Sending PINGRESP to ESPClient-1ecc
+1778161543: Received PINGREQ from ESPClient-1ecc
+1778161543: Sending PINGRESP to ESPClient-1ecc
+1778161550: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161550: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161558: Received PINGREQ from ESPClient-1ecc
+1778161558: Sending PINGRESP to ESPClient-1ecc
+1778161573: Received PINGREQ from ESPClient-1ecc
+1778161573: Sending PINGRESP to ESPClient-1ecc
+1778161574: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161574: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161583: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161583: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161588: Received PINGREQ from ESPClient-1ecc
+1778161588: Sending PINGRESP to ESPClient-1ecc
+1778161598: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161598: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161603: Received PINGREQ from ESPClient-1ecc
+1778161603: Sending PINGRESP to ESPClient-1ecc
+1778161618: Received PINGREQ from ESPClient-1ecc
+1778161618: Sending PINGRESP to ESPClient-1ecc
+1778161622: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161622: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161633: Received PINGREQ from ESPClient-1ecc
+1778161633: Sending PINGRESP to ESPClient-1ecc
+1778161643: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161643: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161646: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161646: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161649: Received PINGREQ from ESPClient-1ecc
+1778161649: Sending PINGRESP to ESPClient-1ecc
+1778161664: Received PINGREQ from ESPClient-1ecc
+1778161664: Sending PINGRESP to ESPClient-1ecc
+1778161670: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161670: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161679: Received PINGREQ from ESPClient-1ecc
+1778161679: Sending PINGRESP to ESPClient-1ecc
+1778161694: Received PINGREQ from ESPClient-1ecc
+1778161694: Sending PINGRESP to ESPClient-1ecc
+1778161695: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161695: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161704: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161704: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161709: Received PINGREQ from ESPClient-1ecc
+1778161709: Sending PINGRESP to ESPClient-1ecc
+1778161718: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778161719: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161719: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161724: Received PINGREQ from ESPClient-1ecc
+1778161724: Sending PINGRESP to ESPClient-1ecc
+1778161739: Received PINGREQ from ESPClient-1ecc
+1778161739: Sending PINGRESP to ESPClient-1ecc
+1778161743: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161743: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161754: Received PINGREQ from ESPClient-1ecc
+1778161754: Sending PINGRESP to ESPClient-1ecc
+1778161764: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161764: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161767: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161767: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161769: Received PINGREQ from ESPClient-1ecc
+1778161769: Sending PINGRESP to ESPClient-1ecc
+1778161785: Received PINGREQ from ESPClient-1ecc
+1778161785: Sending PINGRESP to ESPClient-1ecc
+1778161791: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161791: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161800: Received PINGREQ from ESPClient-1ecc
+1778161800: Sending PINGRESP to ESPClient-1ecc
+1778161815: Received PINGREQ from ESPClient-1ecc
+1778161815: Sending PINGRESP to ESPClient-1ecc
+1778161816: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161816: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161825: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161825: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161830: Received PINGREQ from ESPClient-1ecc
+1778161830: Sending PINGRESP to ESPClient-1ecc
+1778161840: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161840: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161845: Received PINGREQ from ESPClient-1ecc
+1778161845: Sending PINGRESP to ESPClient-1ecc
+1778161860: Received PINGREQ from ESPClient-1ecc
+1778161860: Sending PINGRESP to ESPClient-1ecc
+1778161864: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161864: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161875: Received PINGREQ from ESPClient-1ecc
+1778161875: Sending PINGRESP to ESPClient-1ecc
+1778161885: Received PINGREQ from backend_mqtt_0dd2cc4e
+1778161885: Sending PINGRESP to backend_mqtt_0dd2cc4e
+1778161888: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161888: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161891: Received PINGREQ from ESPClient-1ecc
+1778161891: Sending PINGRESP to ESPClient-1ecc
+1778161906: Received PINGREQ from ESPClient-1ecc
+1778161906: Sending PINGRESP to ESPClient-1ecc
+1778161913: Received PUBLISH from ESPClient-1ecc (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161913: Sending PUBLISH to backend_mqtt_0dd2cc4e (d0, q0, r0, m0, 'teste/esp', ... (200 bytes))
+1778161921: Received PINGREQ from ESPClient-1ecc
+1778161921: Sending PINGRESP to ESPClient-1ecc
+1778161943: Client backend_mqtt_0dd2cc4e [192.168.117.1:46622] disconnected: connection closed by client.
+1778161944: Client ESPClient-1ecc [192.168.117.1:49582] disconnected: exceeded timeout.
+1778162019: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778162268: New connection from 192.168.117.1:60264 on port 1883.
+1778162268: New client connected from 192.168.117.1:60264 as backend_mqtt_c57c2285 (p4, c1, k60).
+1778162268: No will message specified.
+1778162268: Sending CONNACK to backend_mqtt_c57c2285 (0, 0)
+1778162268: Received UNSUBSCRIBE from backend_mqtt_c57c2285
+1778162268: 	teste/esp
+1778162268: Sending UNSUBACK to backend_mqtt_c57c2285
+1778162268: Received SUBSCRIBE from backend_mqtt_c57c2285
+1778162268: 	teste/esp (QoS 0)
+1778162268: Sending SUBACK to backend_mqtt_c57c2285
+1778162319: Client backend_mqtt_c57c2285 [192.168.117.1:60264] disconnected: connection closed by client.
+1778162320: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778162320: New connection from 192.168.117.1:34964 on port 1883.
+1778162320: New client connected from 192.168.117.1:34964 as backend_mqtt_642fca78 (p4, c1, k60).
+1778162320: No will message specified.
+1778162320: Sending CONNACK to backend_mqtt_642fca78 (0, 0)
+1778162320: Received UNSUBSCRIBE from backend_mqtt_642fca78
+1778162320: 	teste/esp
+1778162320: Sending UNSUBACK to backend_mqtt_642fca78
+1778162320: Received SUBSCRIBE from backend_mqtt_642fca78
+1778162320: 	teste/esp (QoS 0)
+1778162320: Sending SUBACK to backend_mqtt_642fca78
+1778162362: Client backend_mqtt_642fca78 [192.168.117.1:34964] disconnected: connection closed by client.
+1778162363: New connection from 192.168.117.1:42950 on port 1883.
+1778162363: New client connected from 192.168.117.1:42950 as backend_mqtt_5777d186 (p4, c1, k60).
+1778162363: No will message specified.
+1778162363: Sending CONNACK to backend_mqtt_5777d186 (0, 0)
+1778162363: Received UNSUBSCRIBE from backend_mqtt_5777d186
+1778162363: 	teste/esp
+1778162363: Sending UNSUBACK to backend_mqtt_5777d186
+1778162363: Received SUBSCRIBE from backend_mqtt_5777d186
+1778162363: 	teste/esp (QoS 0)
+1778162363: Sending SUBACK to backend_mqtt_5777d186
+1778162423: Received PINGREQ from backend_mqtt_5777d186
+1778162423: Sending PINGRESP to backend_mqtt_5777d186
+1778162483: Received PINGREQ from backend_mqtt_5777d186
+1778162483: Sending PINGRESP to backend_mqtt_5777d186
+1778162543: Received PINGREQ from backend_mqtt_5777d186
+1778162543: Sending PINGRESP to backend_mqtt_5777d186
+1778162604: Received PINGREQ from backend_mqtt_5777d186
+1778162604: Sending PINGRESP to backend_mqtt_5777d186
+1778162621: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778162664: Received PINGREQ from backend_mqtt_5777d186
+1778162664: Sending PINGRESP to backend_mqtt_5777d186
+1778162892: Received PINGREQ from backend_mqtt_5777d186
+1778162892: Sending PINGRESP to backend_mqtt_5777d186
+1778162953: Received PINGREQ from backend_mqtt_5777d186
+1778162953: Sending PINGRESP to backend_mqtt_5777d186
+1778163013: Received PINGREQ from backend_mqtt_5777d186
+1778163013: Sending PINGRESP to backend_mqtt_5777d186
+1778163073: Received PINGREQ from backend_mqtt_5777d186
+1778163073: Sending PINGRESP to backend_mqtt_5777d186
+1778163090: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778163133: Received PINGREQ from backend_mqtt_5777d186
+1778163133: Sending PINGRESP to backend_mqtt_5777d186
+1778163135: Client backend_mqtt_5777d186 [192.168.117.1:42950] disconnected: connection closed by client.
+1778163136: New connection from 192.168.117.1:41442 on port 1883.
+1778163136: New client connected from 192.168.117.1:41442 as backend_mqtt_4c2dde63 (p4, c1, k60).
+1778163136: No will message specified.
+1778163136: Sending CONNACK to backend_mqtt_4c2dde63 (0, 0)
+1778163136: Received UNSUBSCRIBE from backend_mqtt_4c2dde63
+1778163136: 	teste/esp
+1778163136: Sending UNSUBACK to backend_mqtt_4c2dde63
+1778163136: Received SUBSCRIBE from backend_mqtt_4c2dde63
+1778163136: 	teste/esp (QoS 0)
+1778163136: Sending SUBACK to backend_mqtt_4c2dde63
+1778163171: New connection from 192.168.117.1:60198 on port 1883.
+1778163171: New client connected from 192.168.117.1:60198 as Simulador_Historico (p4, c1, k60).
+1778163171: No will message specified.
+1778163171: Sending CONNACK to Simulador_Historico (0, 0)
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163171: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (20000 bytes))
+1778163172: Received PUBLISH from Simulador_Historico (d0, q0, r0, m0, 'teste/esp', ... (16000 bytes))
+1778163172: Sending PUBLISH to backend_mqtt_4c2dde63 (d0, q0, r0, m0, 'teste/esp', ... (16000 bytes))
+1778163173: Received DISCONNECT from Simulador_Historico
+1778163173: Client Simulador_Historico [192.168.117.1:60198] disconnected.
+1778163196: Received PINGREQ from backend_mqtt_4c2dde63
+1778163196: Sending PINGRESP to backend_mqtt_4c2dde63
+1778163257: Received PINGREQ from backend_mqtt_4c2dde63
+1778163257: Sending PINGRESP to backend_mqtt_4c2dde63
+1778163317: Received PINGREQ from backend_mqtt_4c2dde63
+1778163317: Sending PINGRESP to backend_mqtt_4c2dde63
+1778163377: Received PINGREQ from backend_mqtt_4c2dde63
+1778163377: Sending PINGRESP to backend_mqtt_4c2dde63
+1778163391: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778163438: Received PINGREQ from backend_mqtt_4c2dde63
+1778163438: Sending PINGRESP to backend_mqtt_4c2dde63
+1778165994: Received PINGREQ from backend_mqtt_4c2dde63
+1778165994: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166054: Received PINGREQ from backend_mqtt_4c2dde63
+1778166054: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166114: Received PINGREQ from backend_mqtt_4c2dde63
+1778166114: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166175: Received PINGREQ from backend_mqtt_4c2dde63
+1778166175: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166187: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778166235: Received PINGREQ from backend_mqtt_4c2dde63
+1778166235: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166295: Received PINGREQ from backend_mqtt_4c2dde63
+1778166295: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166355: Received PINGREQ from backend_mqtt_4c2dde63
+1778166355: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166416: Received PINGREQ from backend_mqtt_4c2dde63
+1778166416: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166476: Received PINGREQ from backend_mqtt_4c2dde63
+1778166476: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778166536: Received PINGREQ from backend_mqtt_4c2dde63
+1778166536: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166596: Received PINGREQ from backend_mqtt_4c2dde63
+1778166596: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166656: Received PINGREQ from backend_mqtt_4c2dde63
+1778166656: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166717: Received PINGREQ from backend_mqtt_4c2dde63
+1778166717: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166777: Received PINGREQ from backend_mqtt_4c2dde63
+1778166777: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166789: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778166837: Received PINGREQ from backend_mqtt_4c2dde63
+1778166837: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166897: Received PINGREQ from backend_mqtt_4c2dde63
+1778166897: Sending PINGRESP to backend_mqtt_4c2dde63
+1778166957: Received PINGREQ from backend_mqtt_4c2dde63
+1778166957: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167018: Received PINGREQ from backend_mqtt_4c2dde63
+1778167018: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167078: Received PINGREQ from backend_mqtt_4c2dde63
+1778167078: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167090: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778167138: Received PINGREQ from backend_mqtt_4c2dde63
+1778167138: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167198: Received PINGREQ from backend_mqtt_4c2dde63
+1778167198: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167259: Received PINGREQ from backend_mqtt_4c2dde63
+1778167259: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167319: Received PINGREQ from backend_mqtt_4c2dde63
+1778167319: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167379: Received PINGREQ from backend_mqtt_4c2dde63
+1778167379: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167391: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778167439: Received PINGREQ from backend_mqtt_4c2dde63
+1778167439: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167499: Received PINGREQ from backend_mqtt_4c2dde63
+1778167499: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167560: Received PINGREQ from backend_mqtt_4c2dde63
+1778167560: Sending PINGRESP to backend_mqtt_4c2dde63

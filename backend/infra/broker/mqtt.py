@@ -57,10 +57,14 @@ class MQTTClient:
             end = start + struct_size
             chunk = data[start:end]
             
-            timestamp, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2 = struct.unpack(struct_format, chunk)
+            unix_timestamp, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2 = struct.unpack(struct_format, chunk)
+            
+            # Convert UNIX timestamp to datetime
+            timestamp_dt = datetime.fromtimestamp(unix_timestamp)
             
             data_point = {
-                'timestamp': timestamp,
+                'timestamp': timestamp_dt,
+                'unix_timestamp': unix_timestamp,
                 'rms_sct1': rms_sct1,
                 'rms_sct2': rms_sct2,
                 'rms_zmpt1': rms_zmpt1,
@@ -69,7 +73,7 @@ class MQTTClient:
             }
             data_points_list.append(data_point)
             self.data_points.append(data_point)
-            print(f"timestamp={timestamp}, sct1={rms_sct1:.3f}, sct2={rms_sct2:.3f}, zmpt1={rms_zmpt1:.3f}, zmpt2={rms_zmpt2:.3f}")
+            print(f"unix_timestamp={unix_timestamp}, datetime={timestamp_dt}, sct1={rms_sct1:.3f}, sct2={rms_sct2:.3f}, zmpt1={rms_zmpt1:.3f}, zmpt2={rms_zmpt2:.3f}")
             
             for callback in self.callbacks:
                 callback(data_point)
@@ -78,10 +82,10 @@ class MQTTClient:
             for dp in data_points_list:
                 query = text("""
                     INSERT INTO breaker (timestamp, breaker_id, rms_sct1, rms_sct2, rms_zmpt1, rms_zmpt2)
-                    VALUES (CAST(:timestamp AS timestamp with time zone), :breaker_id, :rms_sct1, :rms_sct2, :rms_zmpt1, :rms_zmpt2)
+                    VALUES (to_timestamp(:timestamp) AT TIME ZONE 'UTC', :breaker_id, :rms_sct1, :rms_sct2, :rms_zmpt1, :rms_zmpt2)
                 """)
                 conn.execute(query, {
-                    'timestamp': dp['timestamp'],
+                    'timestamp': dp['unix_timestamp'],
                     'breaker_id': breaker_id,
                     'rms_sct1': dp['rms_sct1'],
                     'rms_sct2': dp['rms_sct2'],
