@@ -3318,3 +3318,12 @@
 1778167499: Sending PINGRESP to backend_mqtt_4c2dde63
 1778167560: Received PINGREQ from backend_mqtt_4c2dde63
 1778167560: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167620: Received PINGREQ from backend_mqtt_4c2dde63
+1778167620: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167680: Received PINGREQ from backend_mqtt_4c2dde63
+1778167680: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167692: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778167741: Received PINGREQ from backend_mqtt_4c2dde63
+1778167741: Sending PINGRESP to backend_mqtt_4c2dde63
+1778167926: mosquitto version 2.1.2 terminating
+1778167926: Saving in-memory database to /mosquitto/data//mosquitto.db.

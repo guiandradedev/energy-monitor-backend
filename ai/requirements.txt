@@ -3,3 +3,6 @@ numpy
 matplotlib
 scipy
 scikit-learn
+holidays
+lightgbm
+joblib
