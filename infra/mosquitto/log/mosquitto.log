@@ -3327,3 +3327,23 @@
 1778167741: Sending PINGRESP to backend_mqtt_4c2dde63
 1778167926: mosquitto version 2.1.2 terminating
 1778167926: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778241459: mosquitto version 2.1.2 starting
+1778241459: Config loaded from /mosquitto/config/mosquitto.conf.
+1778241459: Bridge support available.
+1778241459: Persistence support available.
+1778241459: TLS support available.
+1778241459: TLS-PSK support available.
+1778241459: Websockets support available.
+1778241459: Opening ipv4 listen socket on port 1883.
+1778241459: Opening ipv6 listen socket on port 1883.
+1778241459: Opening ipv4 listen socket on port 9001.
+1778241459: Opening ipv6 listen socket on port 9001.
+1778241459: mosquitto version 2.1.2 running
+1778242054: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778242355: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778242656: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778242957: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778243258: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778246875: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778246901: mosquitto version 2.1.2 terminating
+1778246901: Saving in-memory database to /mosquitto/data//mosquitto.db.
