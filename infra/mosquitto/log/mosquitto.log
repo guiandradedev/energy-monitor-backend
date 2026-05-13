@@ -3347,3 +3347,92 @@
 1778246875: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1778246901: mosquitto version 2.1.2 terminating
 1778246901: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778700006: mosquitto version 2.1.2 starting
+1778700006: Config loaded from /mosquitto/config/mosquitto.conf.
+1778700006: Bridge support available.
+1778700006: Persistence support available.
+1778700006: TLS support available.
+1778700006: TLS-PSK support available.
+1778700006: Websockets support available.
+1778700006: Opening ipv4 listen socket on port 1883.
+1778700006: Opening ipv6 listen socket on port 1883.
+1778700006: Opening ipv4 listen socket on port 9001.
+1778700006: Opening ipv6 listen socket on port 9001.
+1778700006: mosquitto version 2.1.2 running
+1778700033: New connection from 192.168.117.1:33122 on port 1883.
+1778700033: New client connected from 192.168.117.1:33122 as backend_mqtt_1418149d (p4, c1, k60).
+1778700033: No will message specified.
+1778700033: Sending CONNACK to backend_mqtt_1418149d (0, 0)
+1778700033: Received UNSUBSCRIBE from backend_mqtt_1418149d
+1778700033: 	teste/esp
+1778700033: Sending UNSUBACK to backend_mqtt_1418149d
+1778700033: Received SUBSCRIBE from backend_mqtt_1418149d
+1778700033: 	teste/esp (QoS 0)
+1778700033: Sending SUBACK to backend_mqtt_1418149d
+1778700094: Received PINGREQ from backend_mqtt_1418149d
+1778700094: Sending PINGRESP to backend_mqtt_1418149d
+1778700154: Received PINGREQ from backend_mqtt_1418149d
+1778700154: Sending PINGRESP to backend_mqtt_1418149d
+1778700214: Received PINGREQ from backend_mqtt_1418149d
+1778700214: Sending PINGRESP to backend_mqtt_1418149d
+1778700274: Received PINGREQ from backend_mqtt_1418149d
+1778700274: Sending PINGRESP to backend_mqtt_1418149d
+1778700307: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778700335: Received PINGREQ from backend_mqtt_1418149d
+1778700335: Sending PINGRESP to backend_mqtt_1418149d
+1778700395: Received PINGREQ from backend_mqtt_1418149d
+1778700395: Sending PINGRESP to backend_mqtt_1418149d
+1778700455: Received PINGREQ from backend_mqtt_1418149d
+1778700455: Sending PINGRESP to backend_mqtt_1418149d
+1778700516: Received PINGREQ from backend_mqtt_1418149d
+1778700516: Sending PINGRESP to backend_mqtt_1418149d
+1778700576: Received PINGREQ from backend_mqtt_1418149d
+1778700576: Sending PINGRESP to backend_mqtt_1418149d
+1778700608: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778700637: Received PINGREQ from backend_mqtt_1418149d
+1778700637: Sending PINGRESP to backend_mqtt_1418149d
+1778700697: Received PINGREQ from backend_mqtt_1418149d
+1778700697: Sending PINGRESP to backend_mqtt_1418149d
+1778700757: Received PINGREQ from backend_mqtt_1418149d
+1778700757: Sending PINGRESP to backend_mqtt_1418149d
+1778700817: Received PINGREQ from backend_mqtt_1418149d
+1778700817: Sending PINGRESP to backend_mqtt_1418149d
+1778700878: Received PINGREQ from backend_mqtt_1418149d
+1778700878: Sending PINGRESP to backend_mqtt_1418149d
+1778700909: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778700938: Received PINGREQ from backend_mqtt_1418149d
+1778700938: Sending PINGRESP to backend_mqtt_1418149d
+1778700998: Received PINGREQ from backend_mqtt_1418149d
+1778700998: Sending PINGRESP to backend_mqtt_1418149d
+1778701058: Received PINGREQ from backend_mqtt_1418149d
+1778701058: Sending PINGRESP to backend_mqtt_1418149d
+1778701119: Received PINGREQ from backend_mqtt_1418149d
+1778701119: Sending PINGRESP to backend_mqtt_1418149d
+1778701179: Received PINGREQ from backend_mqtt_1418149d
+1778701179: Sending PINGRESP to backend_mqtt_1418149d
+1778701210: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778701240: Received PINGREQ from backend_mqtt_1418149d
+1778701240: Sending PINGRESP to backend_mqtt_1418149d
+1778701300: Received PINGREQ from backend_mqtt_1418149d
+1778701300: Sending PINGRESP to backend_mqtt_1418149d
+1778701360: Received PINGREQ from backend_mqtt_1418149d
+1778701360: Sending PINGRESP to backend_mqtt_1418149d
+1778701421: Received PINGREQ from backend_mqtt_1418149d
+1778701421: Sending PINGRESP to backend_mqtt_1418149d
+1778701481: Received PINGREQ from backend_mqtt_1418149d
+1778701481: Sending PINGRESP to backend_mqtt_1418149d
+1778701511: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1778701542: Received PINGREQ from backend_mqtt_1418149d
+1778701542: Sending PINGRESP to backend_mqtt_1418149d
+1778702810: Client backend_mqtt_1418149d [192.168.117.1:33122] disconnected: exceeded timeout.
+1778702810: New connection from 192.168.117.1:55110 on port 1883.
+1778702810: New client connected from 192.168.117.1:55110 as backend_mqtt_1418149d (p4, c1, k60).
+1778702810: No will message specified.
+1778702810: Sending CONNACK to backend_mqtt_1418149d (0, 0)
+1778702811: Received UNSUBSCRIBE from backend_mqtt_1418149d
+1778702811: 	teste/esp
+1778702811: Sending UNSUBACK to backend_mqtt_1418149d
+1778702811: Received SUBSCRIBE from backend_mqtt_1418149d
+1778702811: 	teste/esp (QoS 0)
+1778702811: Sending SUBACK to backend_mqtt_1418149d
+1778702826: Client backend_mqtt_1418149d [192.168.117.1:55110] disconnected: connection closed by client.

@@ -6,3 +6,4 @@ scikit-learn
 holidays
 lightgbm
 joblib
+seaborn
