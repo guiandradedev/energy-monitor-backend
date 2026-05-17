@@ -1,13 +1,42 @@
-venv
-__pycache__
+# Python
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
+.venv/
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets
 .env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Infra (dados persistentes do broker; recriados pelo docker compose)
+infra/mosquitto/data/
+infra/mosquitto/log/
+infra/mosquitto/config/pwfile

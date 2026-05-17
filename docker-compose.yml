@@ -15,7 +15,7 @@ services:
     image: timescale/timescaledb:latest-pg15
     container_name: timescaledb
     ports:
-      - "5432:5432"
+      - "6432:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: senha123

@@ -2,6 +2,7 @@ import {
   isRouteErrorResponse,
   Links,
   Meta,
+  NavLink,
   Outlet,
   Scripts,
   ScrollRestoration,
@@ -41,8 +42,45 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
+const NAV = [
+  { to: "/", label: "Início", end: true },
+  { to: "/telemetry", label: "Telemetria" },
+  { to: "/devices", label: "Dispositivos" },
+  { to: "/priorities", label: "Prioridades" },
+  { to: "/safety-limits", label: "Limites" },
+  { to: "/parameters", label: "Parâmetros" },
+  { to: "/events", label: "Eventos" },
+];
+
 export default function App() {
-  return <Outlet />;
+  return (
+    <div className="min-h-screen text-gray-900 dark:text-gray-100">
+      <header className="border-b border-gray-200 dark:border-gray-800">
+        <nav className="container mx-auto flex flex-wrap items-center gap-4 px-4 py-3">
+          <span className="font-semibold mr-4">Energy Monitor</span>
+          {NAV.map((item) => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.end}
+              className={({ isActive }) =>
+                `text-sm hover:underline ${
+                  isActive
+                    ? "font-semibold text-blue-600 dark:text-blue-400"
+                    : "text-gray-600 dark:text-gray-300"
+                }`
+              }
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+      </header>
+      <main className="container mx-auto px-4 py-6">
+        <Outlet />
+      </main>
+    </div>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

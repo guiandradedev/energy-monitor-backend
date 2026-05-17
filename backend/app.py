@@ -5,30 +5,51 @@ from flask import Flask, render_template, Response, request
 from flask_cors import CORS
 import threading
 import json
-from infra.broker.mqtt import MQTTClient
+from infra.broker.mqtt import get_mqtt_client
 import queue
 import os
 from infra.database.postgres import get_engine, text
+from services.config_cache import config_cache
+from services.device_supervisor import device_supervisor
+from infra.http.priorities import priorities_bp
+from infra.http.devices import devices_bp
+from infra.http.safety_limits import safety_limits_bp
+from infra.http.parameters import parameters_bp
+from infra.http.events import events_bp
+from infra.http.telemetry import telemetry_bp
 
 app = Flask(__name__)
 CORS(app)
 
+# Bootstrap síncrono do cache + thread de refresh periódico
+config_cache.start()
+
+app.register_blueprint(priorities_bp)
+app.register_blueprint(devices_bp)
+app.register_blueprint(safety_limits_bp)
+app.register_blueprint(parameters_bp)
+app.register_blueprint(events_bp)
+app.register_blueprint(telemetry_bp)
+
 # Queue for server-sent events
 data_queue = queue.Queue()
 
-# Initialize MQTT client
-mqtt_client = MQTTClient()
+# Initialize MQTT client (singleton)
+mqtt_client = get_mqtt_client()
 
 def mqtt_data_callback(data_point):
     """Callback when MQTT receives new data"""
     data_queue.put(data_point)
 
-# Register the callback
 mqtt_client.register_callback(mqtt_data_callback)
 
 # Start MQTT client in a separate thread
 mqtt_thread = threading.Thread(target=mqtt_client.start, daemon=True)
 mqtt_thread.start()
+
+# Supervisor de cargas (heartbeat + offline detection)
+device_supervisor.attach_mqtt_client(mqtt_client)
+device_supervisor.start()
 
 @app.route('/')
 def index():
